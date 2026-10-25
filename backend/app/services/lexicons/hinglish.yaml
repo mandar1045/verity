@@ -1,0 +1,98 @@
+# Hinglish (Hindi in Roman script). Same format as en.yaml.
+boundary: true
+
+signals:
+  URGENCY:
+    - 'turant'
+    - 'turat'
+    - 'abhi(?: ke abhi)?'
+    - 'jaldi(?: se)?'
+    - 'aaj hi'
+    - 'fauran'
+    - 'aaj raat'
+    - '\d+ ghante? (?:mein|me|ke andar)'
+
+  ACCOUNT_THREAT:
+    - '(?:band|block|suspend|freeze|deactivate) ho (?:jayega|jaega|jayegi|jaegi|jaayega|jaenge|jayenge)'
+    - '(?:band|block|suspend) kar diya (?:jayega|jaega|jaayega)'
+    - '(?:bijli|light|connection) (?:kat|cut) (?:jayegi|jaegi|jayega)'
+    - 'kanooni karyawahi'
+
+  KYC_UPDATE:
+    - 'kyc (?:update|pura|complete) (?:karo|karein|kare|karna|kijiye)'
+    - '(?:pan|aadhaar|aadhar) link (?:karo|karein|kare|kijiye)'
+
+  REMOTE_ACCESS_APP:
+    - '(?:anydesk|teamviewer|quicksupport) (?:download|install) (?:karo|karein|kare|kijiye)'
+    - 'screen share (?:karo|karein|kijiye)'
+
+  PRIZE_LURE:
+    - ['(?:aapne|apne|tumne) .{0,20}jeet(?:a|e|i)', 0.5]
+    - ['inaam', 0.5]
+    - ['lucky draw (?:mein|me) (?:aapka|apka)', 0.5]
+    - ['badhai ho', 0.3]
+
+  PAY_TO_EARN:
+    - ['ghar baithe (?:kamaye|kamao|kamaiye|paise)', 0.5]
+    - ['roz (?:rs\.?|₹)?\s*[\d,]+ (?:kamaye|kamao|kamaiye)', 0.5]
+    - ['(?:registration|processing) fee (?:bharo|bhariye|bhejo|do|dijiye)', 0.6]
+    - ['pehle (?:rs\.?|₹)?\s*[\d,]+ (?:bhejo|bhejiye|pay karo|jama karo)', 0.6]
+    - ['(?:video|videos) like kar(?:o|ke|ne)', 0.45]
+
+  IMPERSONATION:
+    - ['(?:ye|yeh) mera naya number (?:hai|h)', 0.55]
+    - ['naya number', 0.4]
+    - ['(?:mummy|papa|beta|bhai),? (?:main|mai|me) (?:hoon|hu)', 0.5]
+    - ['bank se (?:bol|baat kar) raha', 0.5]
+
+signals_extra:
+  PIN_TERMS:
+    - 'pin (?:daalo|dalo|daal do|daaliye|daalein|dalein|enter karo|enter karein|enter kare|enter kijiye)'
+    - 'pin daal(?:kar|ke)'
+    - 'scan kar(?:o|ein|ke|iye|en)'
+    - 'collect request accept kar(?:o|ein|ke|iye|en)'
+  RECEIVE_TERMS:
+    - 'paise?(?:\s+\w+){0,2}\s+(?:milega|milenge|aayenge|aa jayenge|receive)'
+    - 'milega'
+    - 'milenge'
+    - '(?:refund|payment|amount|cashback) (?:milega|aayega|aa jayega|receive)'
+    - 'receive karne ke liye'
+    - '(?:paane|lene|prapt karne) ke liye'
+    - 'credit (?:ho jayega|hoga)'
+  NEGATION_TERMS:
+    - 'kabhi nahi'
+    - 'kabhi bhi nahi'
+    - 'zarurat nahi'
+    - 'na karein'
+  CRED_ACTION:
+    - 'batao'
+    - 'bataiye'
+    - 'bata do'
+    - 'bhejo'
+    - 'bhejiye'
+    - 'bhej do'
+    - 'share karo'
+    - 'share karein'
+    - 'share kijiye'
+  CRED_OBJECT:
+    - 'otp'
+    - 'pin'
+    - 'password'
+    - 'cvv'
+  OTP_WARNING:
+    - 'share na kare'
+    - 'share na karein'
+    - 'share mat karo'
+    - 'kisi ko na bataye'
+    - 'kisi ko na batayein'
+    - 'kisi ke saath share na'
+  CALL_WORDS:
+    - 'call karo'
+    - 'call karein'
+    - 'call kijiye'
+    - 'baat karein'
+    - 'sampark karein'
+  WRONG_TRANSFER:
+    - 'galti se'
+    - 'galat number par'
+    - 'wapas (?:bhej|kar) do'

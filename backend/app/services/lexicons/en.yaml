@@ -1,0 +1,153 @@
+# English lexicon. Patterns are Python regexes matched case-insensitively.
+# An entry is either 'pattern' (signal default weight) or ['pattern', weight].
+# boundary: true wraps every pattern in word boundaries.
+boundary: true
+
+signals:
+  URGENCY:
+    - 'immediately'
+    - 'urgent(?:ly)?'
+    - 'right now'
+    - 'asap'
+    - 'act now'
+    - 'hurry'
+    - 'last chance'
+    - 'final (?:warning|notice|reminder)'
+    - 'within \d+\s*(?:hours?|hrs?|minutes?|mins?)'
+    - '(?:by|before) (?:today|tonight|midnight|\d{1,2}(?::\d{2})?\s*(?:am|pm))'
+    - 'today itself'
+    - 'expir(?:es|ing) today'
+    - 'tonight'
+    - 'in the next \d+\s*(?:hours?|minutes?|mins?)'
+    - ['without delay', 0.3]
+
+  ACCOUNT_THREAT:
+    - 'will be (?:permanently )?(?:blocked|suspended|deactivated|frozen|disabled|terminated|locked|closed|disconnected|cut)'
+    - '(?:has been|is|are) (?:temporarily )?(?:blocked|suspended|deactivated|frozen|locked|on hold)'
+    - '(?:account|a/c|card|wallet|upi id|vtop|sim|connection|login)\s+(?:\w+\s+){0,3}(?:suspended|blocked|deactivated|frozen|locked)'
+    - 'legal action'
+    - 'penalty of'
+    - ['avoid (?:suspension|deactivation|blocking|disconnection)', 0.5]
+
+  KYC_UPDATE:
+    - 're-?kyc'
+    - 'kyc'
+    - 'e-?kyc'
+    - '(?:update|link|verify)\s+(?:your\s+)?(?:pan|aadhaar|aadhar)'
+    - '(?:pan|aadhaar|aadhar)\s+(?:card\s+)?(?:update|link|verification|not linked)'
+
+  REMOTE_ACCESS_APP:
+    - 'any\s?desk'
+    - 'team\s?viewer'
+    - 'quick\s?support'
+    - 'rust\s?desk'
+    - 'air\s?droid'
+    - 'ultra\s?viewer'
+    - 'screen\s?shar(?:e|ing)'
+    - 'remote (?:access|support) app'
+    - ['\S+\.apk', 0.75]
+
+  PRIZE_LURE:
+    - ['(?:you(?:''ve| have)?|u) (?:have )?won', 0.5]
+    - ['lucky (?:draw|winner|customer)', 0.5]
+    - ['lottery', 0.55]
+    - ['jackpot', 0.5]
+    - ['congratulations?', 0.3]
+    - ['(?:prize|reward) (?:money|amount|of)', 0.45]
+    - ['claim (?:your )?(?:prize|reward|gift|cashback)', 0.5]
+    - ['selected (?:for|as)', 0.3]
+    - ['free (?:iphone|gift|recharge|laptop)', 0.45]
+    - ['kbc', 0.55]
+    - ['cashback', 0.15]
+
+  PAY_TO_EARN:
+    - ['(?:registration|processing|activation|joining|release|clearance|gst|tax) (?:fee|charge|amount)', 0.6]
+    - ['pay (?:rs\.?|inr|₹)?\s*[\d,]+\s*(?:only\s*)?(?:to|for) (?:claim|unlock|activate|start|withdraw|receive|release|get)', 0.6]
+    - ['earn (?:rs\.?|inr|₹)?\s*[\d,]+\s*(?:/|per|a|every)\s*(?:day|daily|hour|task)', 0.5]
+    - ['(?:like|rate|review) (?:youtube )?(?:videos?|products?|hotels?|posts?)', 0.45]
+    - ['(?:prepaid|telegram) task', 0.6]
+    - ['part[- ]time (?:job|work)', 0.35]
+    - ['work from home', 0.3]
+    - ['double your (?:money|investment)', 0.6]
+    - ['guaranteed returns?', 0.55]
+    - ['deposit (?:rs\.?|inr|₹)?\s*[\d,]+\s*(?:to|and) (?:start|earn|unlock)', 0.6]
+
+  IMPERSONATION:
+    - ['(?:this is|it''s|its) my new number', 0.55]
+    - ['new number', 0.4]
+    - ['(?:calling|writing|speaking) from (?:the )?(?:sbi|hdfc|icici|axis|rbi|bank|npci|police|cyber cell|customs|trai|income tax|electricity board)', 0.5]
+    - ['(?:bank|rbi|police|cyber ?crime|customs|electricity|bescom|tneb|kyc) (?:officer|official|department|executive|manager)', 0.45]
+    - ['customer care (?:executive|officer|team)', 0.4]
+    - ['(?:mom|mum|dad|papa|mummy|beta)[, ]+(?:its|it''s|this is) me', 0.5]
+    - ['(?:vit|vtop) (?:it )?(?:admin|helpdesk|support) team', 0.4]
+
+signals_extra:
+  # Compositional detectors (PIN_TO_RECEIVE, CREDENTIAL_REQUEST, CALLBACK_NUMBER).
+  PIN_TERMS:
+    - '(?:upi\s*)?m?pin'
+    - 'scan(?:ning)?'
+    - 'qr(?:\s*code)?'
+    - '(?:accept|approve)\s+(?:the\s+)?(?:collect|payment)\s+request'
+  RECEIVE_TERMS:
+    - 'receiv(?:e|ing)'
+    - 'refund(?:ed)?'
+    - 'get (?:the |your )?(?:money|payment|refund|amount|cashback)'
+    - 'claim'
+    - '(?:be )?credited'
+    - '(?:refund|money|amount|payment) (?:will )?(?:come|reach)'
+  NEGATION_TERMS:
+    - 'never'
+    - 'do not'
+    - "don't"
+    - 'not (?:required|needed)'
+    - 'no need'
+  # Asking you to hand a secret to someone: always risky.
+  CRED_ACTION:
+    - 'share'
+    - 'send'
+    - 'tell'
+    - 'provide'
+    - 'forward'
+    - 'give'
+    - 'read out'
+    - 'reply (?:with|back)'
+  # Asking you to type a secret somewhere: risky only next to a bad link.
+  CRED_ENTRY:
+    - 'enter'
+    - 'verify'
+    - 'confirm'
+    - 'type'
+    - 'submit'
+    - 'update'
+    - 'login (?:with|using)'
+  CRED_OBJECT:
+    - 'otp'
+    - 'one[- ]time password'
+    - 'cvv'
+    - 'm?pin'
+    - 'password'
+    - 'passcode'
+    - 'credentials'
+    - 'login (?:details|id)'
+    - 'card (?:number|details)'
+    - 'net ?banking'
+    - 'verification code'
+  OTP_WARNING:
+    - '(?:do not|don''t|never|pls do not|please do not) (?:share|disclose|tell|give)'
+    - 'will never (?:ask|call)'
+    - 'never asks?'
+    - 'not share (?:it|this)'
+  CALL_WORDS:
+    - 'call'
+    - 'contact'
+    - 'dial'
+    - 'whats\s?app'
+    - 'reach'
+    - 'ring'
+    - 'helpline'
+    - 'customer care'
+  WRONG_TRANSFER:
+    - 'by mistake'
+    - 'wrongly (?:sent|transferred)'
+    - 'mistakenly'
+    - 'sent .{0,20} to you by mistake'

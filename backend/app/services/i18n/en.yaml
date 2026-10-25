@@ -1,0 +1,178 @@
+# English (canonical). Every other language falls back to these keys.
+# Reading level: Class 8. Short sentences.
+
+label:
+  SAFE: "Looks safe"
+  SUSPICIOUS: "Suspicious"
+  HIGH_RISK: "High risk"
+
+headline:
+  SAFE: "We found no strong scam signs in this message."
+  SUSPICIOUS: "This message has warning signs. Check it carefully before you act."
+  HIGH_RISK: "This message is very likely a scam. Do not act on it."
+
+txn_headline:
+  SAFE: "This payment looks normal for this account."
+  SUSPICIOUS: "This payment is unusual. Check the payee before you continue."
+  HIGH_RISK: "This payment matches known fraud patterns. Stop and check before you pay."
+
+signal:
+  URGENCY:
+    title: "Pressure to act fast"
+    description: "Rushes you with words like {evidence}."
+    sentence: "It rushes you, so you act before you think."
+  ACCOUNT_THREAT:
+    title: "Threat to block your account"
+    description: "Threatens you: {evidence}."
+    sentence: "It threatens to block your account. Real banks and colleges do not threaten you over a message."
+  CREDENTIAL_REQUEST:
+    title: "Asks for OTP, PIN or password"
+    description: "Asks for secret details: {evidence}."
+    sentence: "It asks for your OTP, PIN or password. No real bank or college ever asks for these."
+  PIN_TO_RECEIVE:
+    title: "PIN asked to receive money"
+    description: "Asks for a PIN or scan to receive money: {evidence}."
+    sentence: "It asks you to enter your UPI PIN to receive money. You never need a PIN to receive money; a PIN only ever sends money out of your account."
+  SUSPICIOUS_LINK:
+    title: "Risky link"
+    description: "This link has risk signs: {evidence}."
+    sentence: "It has a risky link. Do not open it."
+  LOOKALIKE_DOMAIN:
+    title: "Fake look-alike website"
+    description: "{evidence} copies the name of an official site but is not it."
+    sentence: "The link copies the name of an official website, but it is a different site."
+  URL_SHORTENER:
+    title: "Hidden short link"
+    description: "Short link hides where it goes: {evidence}."
+    sentence: "It uses a short link that hides where it really goes."
+  REMOTE_ACCESS_APP:
+    title: "Screen-sharing app request"
+    description: "Asks you to install: {evidence}."
+    sentence: "It asks you to install a screen-sharing app. That lets a stranger control your phone and bank apps."
+  PRIZE_LURE:
+    title: "Prize or reward bait"
+    description: "Promises a reward: {evidence}."
+    sentence: "It promises a prize or reward you did not expect."
+  PAY_TO_EARN:
+    title: "Pay first to earn"
+    description: "Asks you to pay to earn or claim: {evidence}."
+    sentence: "It asks you to pay first to earn or claim money. Real jobs and prizes never ask for a fee."
+  IMPERSONATION:
+    title: "Pretends to be someone trusted"
+    description: "Claims to be: {evidence}."
+    sentence: "The sender pretends to be someone you trust, like a bank officer or a family member."
+  KYC_UPDATE:
+    title: "KYC update request"
+    description: "Asks for a KYC or ID update: {evidence}."
+    sentence: "It asks you to update KYC through a message. Banks do KYC only in the branch or their official app."
+  SENDER_MISMATCH:
+    title: "Sender doesn't match"
+    description: "Sent from {sender}, which is not an official sender for {evidence}."
+    sentence: "The sender is not an official address for who the message claims to be."
+  CALLBACK_NUMBER:
+    title: "Call-back to a mobile number"
+    description: "Asks you to call {evidence}."
+    sentence: "It asks you to call a personal mobile number. Real helplines are printed on the official app or card."
+  MODEL_TEXT:
+    title: "Scam-like wording"
+    description: "Phrases our model links to scams: {evidence}."
+    sentence: "Its wording closely matches scam messages our model has learned from."
+  NEW_PAYEE_COLLECT:
+    title: "Collect request from a new payee"
+    description: "{evidence}"
+    sentence: "A payee you have never paid is asking you to approve a collect request. Approving it takes money out of your account."
+  YOUNG_PAYEE_ACCOUNT:
+    title: "Brand-new payee account"
+    description: "{evidence}"
+    sentence: "The payee's account was created only a few days ago."
+  PAYMENT_BURST:
+    title: "Burst of payments"
+    description: "{evidence}"
+    sentence: "Many payments are going out within a few minutes."
+  NIGHT_HIGH_VALUE:
+    title: "Large payment at night"
+    description: "{evidence}"
+    sentence: "This is a large payment late at night, far above the usual amount."
+  DEVICE_CHANGE_HIGH_VALUE:
+    title: "New device, large amount"
+    description: "{evidence}"
+    sentence: "A large payment came right after the account moved to a new device."
+  REPORTED_PAYEE:
+    title: "Payee reported by others"
+    description: "{evidence}"
+    sentence: "Other users have reported this payee for fraud."
+  JUST_UNDER_LIMIT:
+    title: "Amount just under a limit"
+    description: "{evidence}"
+    sentence: "The amount sits just under a round limit, to a new payee. Fraudsters do this to avoid extra checks."
+  MULE_PATTERN:
+    title: "Money-mule pattern"
+    description: "{evidence}"
+    sentence: "Many small amounts came in from strangers and almost all of it is going out at once. This is how money-mule accounts work."
+  MODEL_TXN:
+    title: "Unusual for this account"
+    description: "{evidence}"
+    sentence: "Our fraud model rates this payment as unusual for this account."
+
+step:
+  dont_click: "Do not open any link in this message."
+  dont_reply: "Do not reply, and do not call any number given in the message."
+  no_otp_pin: "Never share your OTP, UPI PIN, CVV or password with anyone."
+  decline_collect: "Decline the collect request in your UPI app."
+  pin_only_sends: "Remember: entering your UPI PIN only ever sends money out."
+  block_report: "Block and report the sender in your UPI or messaging app."
+  call_1930: "If you lost money, call 1930 (national cyber-crime helpline) or report at cybercrime.gov.in right away."
+  contact_bank: "Contact your bank only through the number on its official app or the back of your card."
+  uninstall_remote: "If you installed a screen-sharing app, uninstall it now and change your banking passwords."
+  vit_helpdesk: "Forward the message to the VIT IT helpdesk."
+  vit_password: "Change your VTOP password only on the official site, vtop.vit.ac.in."
+  no_fee: "Do not pay any fee to get a job, prize or loan."
+  verify_family: "Call the person on their old, known number before you send any money."
+  verify_official: "Check the claim yourself in the official app or website, not through this message."
+  bill_official: "Check your bill only in the official electricity board app or website."
+  return_via_bank: "If someone says they sent money by mistake, ask them to contact their bank. Never 'return' it through a collect request or QR."
+  safe_ok: "No action needed. Stay alert for messages that ask for a PIN, OTP or money."
+  safe_trust: "If something still feels wrong, check it in the official app before you act."
+  txn_pause: "Pause. Do not approve this payment until you have checked the payee."
+  txn_verify_payee: "Confirm the payee's name and number with someone you trust."
+  txn_new_device: "If you did not change devices, call your bank now and block UPI."
+  txn_mule: "Never let anyone use your account to receive or forward money. That is a crime (money muling)."
+  txn_ok: "No action needed. This looks like a normal payment."
+
+scam_type:
+  COLLECT_REFUND: "Fake refund via collect request"
+  QR_RECEIVE: "QR code 'to receive' trick"
+  FAKE_KYC: "Fake KYC / account block"
+  OTP_THEFT: "OTP theft"
+  REMOTE_ACCESS: "Remote screen-sharing scam"
+  FAKE_CARE: "Fake customer care"
+  TASK_JOB: "Task / part-time job scam"
+  PRIZE: "Fake prize or lottery"
+  WRONG_TRANSFER: "'Sent by mistake' refund trick"
+  BILL_DISCONNECT: "Fake electricity disconnection"
+  VIT_PHISH: "VIT / VTOP phishing"
+  FAMILY_IMPERSONATION: "Family or friend impersonation"
+
+txnfeat:
+  amount_inr: "Amount ₹{amount}"
+  amount_vs_median: "{x}× this account's usual payment"
+  hour: "Made at {hhmm}"
+  is_night_yes: "Night-time payment (00:00–05:00)"
+  is_night_no: "Made during normal hours"
+  type_COLLECT_REQUEST: "Collect request: approving it sends money out"
+  type_PAY: "Direct payment"
+  type_RECEIVE: "Money coming in"
+  channel_QR: "Paid by scanning a QR code"
+  channel_VPA: "Paid to a UPI ID"
+  channel_PHONE: "Paid to a phone number"
+  payee_new_yes: "New payee, never paid before"
+  payee_new_no: "Known payee"
+  payee_age_young: "Payee account is only {n} days old"
+  payee_age_old: "Payee account is {n} days old"
+  reports_yes: "Payee reported {n} times by other users"
+  reports_no: "No reports against this payee"
+  device_yes: "First payment from a new device"
+  device_no: "Usual device"
+  burst: "{n} payments in the last 10 minutes"
+  inbound: "{n} incoming payments in the last 24 hours"
+  ratio: "Sends out {pct}% of the money received in 24 hours"

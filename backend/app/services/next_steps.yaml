@@ -1,0 +1,42 @@
+# Next steps by scam_type and label. Values are keys into i18n `step.*`.
+# The engine takes the scam_type list (or the label list), adds signal-driven
+# steps, de-duplicates and keeps at most 5.
+
+label:
+  SAFE: [safe_ok, safe_trust]
+  SUSPICIOUS: [verify_official, dont_click, no_otp_pin, block_report]
+  HIGH_RISK: [dont_reply, no_otp_pin, block_report, call_1930]
+
+scam_type:
+  COLLECT_REFUND: [decline_collect, pin_only_sends, block_report, call_1930]
+  QR_RECEIVE: [pin_only_sends, decline_collect, block_report, call_1930]
+  FAKE_KYC: [dont_click, contact_bank, no_otp_pin, call_1930]
+  OTP_THEFT: [no_otp_pin, dont_reply, contact_bank, call_1930]
+  REMOTE_ACCESS: [uninstall_remote, contact_bank, no_otp_pin, call_1930]
+  FAKE_CARE: [dont_reply, contact_bank, no_otp_pin, call_1930]
+  TASK_JOB: [no_fee, block_report, call_1930]
+  PRIZE: [no_fee, dont_click, block_report, call_1930]
+  WRONG_TRANSFER: [return_via_bank, decline_collect, pin_only_sends, call_1930]
+  BILL_DISCONNECT: [bill_official, dont_reply, call_1930]
+  VIT_PHISH: [dont_click, vit_helpdesk, vit_password, call_1930]
+  FAMILY_IMPERSONATION: [verify_family, block_report, call_1930]
+
+signals:
+  PIN_TO_RECEIVE: [pin_only_sends]
+  CREDENTIAL_REQUEST: [no_otp_pin]
+  REMOTE_ACCESS_APP: [uninstall_remote]
+  LOOKALIKE_DOMAIN: [dont_click]
+  SUSPICIOUS_LINK: [dont_click]
+  URL_SHORTENER: [dont_click]
+  CALLBACK_NUMBER: [dont_reply]
+
+txn_label:
+  SAFE: [txn_ok]
+  SUSPICIOUS: [txn_pause, txn_verify_payee, decline_collect]
+  HIGH_RISK: [txn_pause, decline_collect, txn_verify_payee, call_1930]
+
+txn_signals:
+  NEW_PAYEE_COLLECT: [decline_collect, pin_only_sends]
+  DEVICE_CHANGE_HIGH_VALUE: [txn_new_device]
+  MULE_PATTERN: [txn_mule]
+  REPORTED_PAYEE: [block_report]

@@ -1,0 +1,75 @@
+# Sample chips for Message Check and the Learn quiz. All content is synthetic.
+
+messages:
+  - id: fake-kyc
+    title: KYC block alert
+    channel: sms
+    sender: AX-SBIUPD
+    text: "Dear Customer, your SBI account will be blocked today. Update your KYC immediately at http://sbi-kyc-verify.xyz/update"
+  - id: bank-otp
+    title: Bank OTP (genuine)
+    channel: sms
+    sender: VM-SBIOTP
+    text: "482910 is your OTP for txn of Rs 1,250.00 at AMAZON. Valid for 10 mins. Do not share this OTP with anyone. SBI never asks for OTP. -SBI"
+  - id: refund-hinglish
+    title: Refund collect (Hinglish)
+    channel: whatsapp
+    sender: "+91 98765 43210"
+    text: "Aapka refund Rs 2499 approve ho gaya hai. Collect request accept karke PIN daalo, paise turant milenge."
+  - id: vtop-phish
+    title: VTOP suspended (email)
+    channel: email
+    sender: vtop.helpdesk.vit@gmail.com
+    text: "Dear Student, your VTOP account is suspended due to unusual activity. Verify your credentials at https://vtop-vit-ac.in/login within 24 hours. - VIT IT Helpdesk"
+  - id: olx-qr
+    title: OLX buyer QR
+    channel: whatsapp
+    sender: "+91 70012 34567"
+    text: "Hi, I am interested in your study table on OLX. I have sent a QR code, scan it and enter your UPI PIN to receive Rs 4,500 advance."
+  - id: task-hindi
+    title: Part-time job (Hindi)
+    channel: whatsapp
+    sender: "+91 91234 56780"
+    text: "घर बैठे रोज़ ₹3000 कमाएं, बस वीडियो लाइक करें। पहले ₹500 रजिस्ट्रेशन फीस भेजें।"
+  - id: power-tamil
+    title: Power cut (Tamil)
+    channel: sms
+    sender: "+91 63812 77450"
+    text: "உங்கள் மின் இணைப்பு இன்றிரவு 9:30க்கு துண்டிக்கப்படும். உடனே மின் வாரிய அதிகாரியை 9876543210 அழைக்கவும்."
+  - id: vit-notice
+    title: Exam notice (genuine)
+    channel: email
+    sender: exam.cell@vit.ac.in
+    text: "Dear Student, the CAT-2 schedule for CSE3001 is published. Check your slot at https://vtop.vit.ac.in"
+
+quiz:
+  - id: q-prize
+    channel: whatsapp
+    sender: "+91 84512 90876"
+    is_scam: true
+    scam_type: PRIZE
+    text: "Congratulations! Your number won Rs 25,00,000 in the KBC lucky draw. Pay Rs 999 processing fee to claim. WhatsApp 98450 11223"
+  - id: q-debit
+    channel: sms
+    sender: VM-SBIINB
+    is_scam: false
+    scam_type: null
+    text: "Rs 80.00 debited from A/c XX4521 to VIT Food Court on 25-Oct. Not you? Call 1800 1234 -SBI"
+  - id: q-mistake
+    channel: whatsapp
+    sender: "+91 99001 23456"
+    is_scam: true
+    scam_type: WRONG_TRANSFER
+    text: "Sir, I sent Rs 5,000 to your number by mistake. Please return it, I have sent a request on GPay. Accept it fast please."
+  - id: q-delivery
+    channel: sms
+    sender: AX-AMAZON
+    is_scam: false
+    scam_type: null
+    text: "Your Amazon order #402-1188321 is out for delivery today. Track: https://www.amazon.in/track"
+  - id: q-family
+    channel: whatsapp
+    sender: "+91 78290 55512"
+    is_scam: true
+    scam_type: FAMILY_IMPERSONATION
+    text: "Hi Mom, this is my new number. Phone fell in water. Need Rs 8,000 urgently, send to rahul.help@ybl please."
