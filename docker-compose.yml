@@ -1,0 +1,16 @@
+# docker compose up  ->  API + full UI on :8000, nginx-served UI on :5173
+services:
+  api:
+    build: .
+    ports: ["8000:8000"]
+    environment:
+      - ANTHROPIC_API_KEY=${ANTHROPIC_API_KEY:-}
+      - VERITY_CORS_ORIGINS=http://localhost:5173,http://127.0.0.1:5173
+  web:
+    build:
+      context: .
+      dockerfile: frontend/Dockerfile
+      args:
+        VITE_API_URL: http://localhost:8000
+    ports: ["5173:80"]
+    depends_on: [api]
