@@ -1,0 +1,21 @@
+# Python
+.venv/
+__pycache__/
+*.pyc
+.pytest_cache/
+.ruff_cache/
+
+# Generated data and models (rebuilt by `make data train eval`)
+data/processed/*
+!data/processed/*_sample.csv
+!data/processed/demo_feed.json
+ml/artifacts/*
+!ml/artifacts/.gitkeep
+backend/data/feedback.jsonl
+
+# Frontend
+frontend/node_modules/
+frontend/dist/
+
+# Secrets
+.env
