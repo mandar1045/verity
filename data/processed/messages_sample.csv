@@ -1,0 +1,201 @@
+id,text,channel,sender,label,scam_type,legit_class,language,template_id,template_group,split
+m00000,"Namaste, QuickSupport app daalo phone me, hum remotely aapka KYC kar denge. Thanks ji. ❗",sms,+91 2513-54278,1,REMOTE_ACCESS,,hinglish,REMOTE_ACCESS-hinglish-03-o1c2,REMOTE_ACCESS-hinglish-03,test
+m00001,"Hello ji, Ghar pahunch gaya, raat ko call karta hoon. Thanks ji.",sms,AX-VITUNI,0,,CASUAL_CHAT,hinglish,CASUAL_CHAT-hinglish-00-o2c2,CASUAL_CHAT-hinglish-00,val
+m00002,"Dear user, Your VTOP password will expire in 7 days. Change it only AT https://vtop.vit.ac.in after logging in. Regards. 💰",sms,VK-SWIGGY,0,,COLLEGE_NOTICE,en,COLLEGE_NOTICE-en-08-o3c2,COLLEGE_NOTICE-en-08,train
+m00003,"💰 Amazon Refund Desk: Rs.6,548 cashback is pending. To receive it, approve the payment request sent to ur UPI app and enter PIN. Thank u.",sms,TX-BNKUPD,1,COLLECT_REFUND,,en,COLLECT_REFUND-en-01-o0c1,COLLECT_REFUND-en-01,train
+m00004,"Namaste, Aapka Netflix mandate ban gaya hai, max Rs 2,958.00 mahina. UPI app me manage karein. Dhanyavaad.",sms,VK-HDFCBK,0,,AUTOPAY_NOTICE,hinglish,AUTOPAY_NOTICE-hinglish-01-o1c1,AUTOPAY_NOTICE-hinglish-01,train
+m00005,"Dear winner, your Swiggy reward of Rs.1305063 is pending. Pay GST of ₹147 to receive it. Have a nice day.",sms,VM-SBIUPD,1,PRIZE,,en,PRIZE-en-03-o0c3,PRIZE-en-03,train
+m00006,"Dear Customer, INR 5,159.50 credited to your A/c XX9379 on 19/10/2026 by UPI ref 877579719274. Avl bal INR 114,809.10. -Kotak Bank Regards.",sms,VK-VITUNI,0,,BANK_ALERT,en,BANK_ALERT-en-01-o0c2,BANK_ALERT-en-01,train
+m00007,🎉 Zomato OTP: 421496. Ye code kisi ko na bataye. Thanks ji.,sms,JD-SWIGGY,0,,BANK_OTP,hinglish,BANK_OTP-hinglish-02-o0c2,BANK_OTP-hinglish-02,train
+m00008,Attention: Merry Christmas to you and the whole family! Thank you. ✅,sms,VM-SBIINB,0,,CASUAL_CHAT,en,CASUAL_CHAT-en-15-o5c1,CASUAL_CHAT-en-15,train
+m00009,"Dear user, Your OTP to change your mobile number is 642607. If you did not request this, call 1800 1234. Never share OTP. Thank you.",email,alerts@hdfcbank.com,0,,BANK_OTP,en,BANK_OTP-en-07-o3c1,BANK_OTP-en-07,train
+m00010,"ALERT: Bring your charger, mine is dead. Regards.",whatsapp,+91 7743 48734,0,,CASUAL_CHAT,en,CASUAL_CHAT-en-17-o4c2,CASUAL_CHAT-en-17,val
+m00011,Payment  atak  gaya?  Turant helpline +91 73623 16658 par call kijiye.,sms,+91 8466889373,1,FAKE_CARE,,hinglish,FAKE_CARE-hinglish-02-o0c0,FAKE_CARE-hinglish-02,test
+m00012,Attention: Exam hall ticket blocked due to pending dues. Pay Rs 8156/- immediately at hxxp://vtop-vit-ac.in Thank u.,email,admin@vtop-login.xyz,1,VIT_PHISH,,en,VIT_PHISH-en-06-o5c1,VIT_PHISH-en-06,train
+m00013,"TELEGRAM TASK JOIN KARO, HAR LIKE PE PAISE MILENGE. ACTIVATION KE LIYE ₹138 PAY KARO. DHANYAVAAD. 🙏",sms,+91 7193 74529,1,TASK_JOB,,hinglish,TASK_JOB-hinglish-02-o0c1,TASK_JOB-hinglish-02,train
+m00014,SBI: KYC expire ho gaya hai. 24 ghante me update karein warna UPI band. https://is.gd/ySeQMgV0 Thanks ji.,sms,+91 8067165726,1,FAKE_KYC,,hinglish,FAKE_KYC-hinglish-02-o0c2,FAKE_KYC-hinglish-02,train
+m00015,"Dear user, Merry Christmas to you and the whole family! Have a nice day.",whatsapp,+91 9996507527,0,,CASUAL_CHAT,en,CASUAL_CHAT-en-15-o3c3,CASUAL_CHAT-en-15,train
+m00016,"Bijli bill INR 3599 pending hai, abhi http://hdfc-care-help.live par pay karo warna connection band. Thanks ji.",sms,JD-ALERTS,1,BILL_DISCONNECT,,hinglish,BILL_DISCONNECT-hinglish-02-o0c2,BILL_DISCONNECT-hinglish-02,train
+m00017,Delhivery: Shipment EK619904272 will be delivered by 5:30 AM. Delivery agent Vikram will call you. Thank you. 🙏,sms,AX-SWIGGY,0,,DELIVERY_UPDATE,en,DELIVERY_UPDATE-en-01-o0c1,DELIVERY_UPDATE-en-01,train
+m00018,"Dear  user,  Refund  failed 3 times. Our executive will connect to your phone through AirDroid, please install it now. Have a nice day. 😊",whatsapp,+91 2941 31869,1,REMOTE_ACCESS,,en,REMOTE_ACCESS-en-07-o3c3,REMOTE_ACCESS-en-07,train
+m00019,"Sir/Madam, Weekend offer: Domino's pe 1 ke saath 1 free! Dhanyavaad.",sms,AX-ICICIT,0,,PROMO,hinglish,PROMO-hinglish-03-o3c1,PROMO-hinglish-03,train
+m00020,"Attention: Students wanted: data entry from mobile, ₹3,899/day guaranteed. Activation charge Rs.1,538 only. Have a nice day.",whatsapp,+91 4210 24994,1,TASK_JOB,,en,TASK_JOB-en-07-o5c3,TASK_JOB-en-07,train
+m00021,"ALERT: Earn daily by reviewing products. Today's bonus task: invest INR 995, get Rs.5,779 back in 1 hour. Have a nice day.",sms,+91 7874 29671,1,TASK_JOB,,en,TASK_JOB-en-04-o4c3,TASK_JOB-en-04,train
+m00022,"Hi, Army officer here, I will buy ur bike helmet for Rs 5,221/-. Scanning my QR is the only way to receive the money, pls scan and approve. Have a nice day.",whatsapp,+91 8760 38597,1,QR_RECEIVE,,en,QR_RECEIVE-en-02-o2c3,QR_RECEIVE-en-02,train
+m00023,"Hello ji, Maine galti se Rs 8399/- bhej diye, request bheji hai, accept kar do please. Dhanyavaad. 😊",whatsapp,+91 9484677378,1,WRONG_TRANSFER,,hinglish,WRONG_TRANSFER-hinglish-01-o2c1,WRONG_TRANSFER-hinglish-01,test
+m00024,"Hi, Payment of Rs 5,588.00 to BigBasket successful. UPI Ref 103524233168. Rate your experience in the app. Have a nice day.",sms,JD-VITUNI,0,,MERCHANT_RECEIPT,en,MERCHANT_RECEIPT-en-01-o2c3,MERCHANT_RECEIPT-en-01,train
+m00025,"Papa please send 9,388.50 for the books this week, sending you THE list. Thank you.",whatsapp,+91 7028 95171,0,,PERSONAL_CHAT,en,PERSONAL_CHAT-en-05-o0c1,PERSONAL_CHAT-en-05,train
+m00026,Weekend offer at Domino's: buy 1 get 1 free on all pizzas. Order on the app. Have a nice day.,whatsapp,+91 5780-91343,0,,PROMO,en,PROMO-en-02-o0c3,PROMO-en-02,val
+m00027,"Dear user, VIT IT Helpdesk: your mailbox has exceeded its quota. Login at hxxp://vtop[.]vit.ac.in.verify-login.top to keep receiving emails. Thank you.",sms,+91 9937923747,1,VIT_PHISH,,en,VIT_PHISH-en-01-o3c1,VIT_PHISH-en-01,train
+m00028,"Hello, Your VTOP password will expire in 7 days. Change it only at https://vtop.vit.ac.in after logging in.",email,exam.cell@vit.ac.in,0,,COLLEGE_NOTICE,en,COLLEGE_NOTICE-en-08-o1c0,COLLEGE_NOTICE-en-08,train
+m00029,260830 என்பது ₹823.00 பரிவர்த்தனைக்கான உங்கள் OTP. இதை யாருடனும் பகிர வேண்டாம். -PNB நன்றி.,sms,TX-AXISBK,0,,BANK_OTP,ta,BANK_OTP-ta-00-o0c1,BANK_OTP-ta-00,train
+m00030,"🎉 Hello ji, Hostel fee fail hui, VTOP password aur card details https://vtop.vit-ac.co pe daalo aaj hi. Thanks ji.",whatsapp,+91 8842 47451,1,VIT_PHISH,,hinglish,VIT_PHISH-hinglish-01-o2c2,VIT_PHISH-hinglish-01,train
+m00031,"ALERT: Electricity bill of Rs 1,499.50 paid via AutoPay. Thank you. - BESCOM Regards.",sms,JD-HDFCBK,0,,AUTOPAY_NOTICE,en,AUTOPAY_NOTICE-en-06-o4c2,AUTOPAY_NOTICE-en-06,train
+m00032,"Namaste, Match dekha kal? Kya finish tha! Thanks ji.",whatsapp,+91 7113 82675,0,,CASUAL_CHAT,hinglish,CASUAL_CHAT-hinglish-05-o1c2,CASUAL_CHAT-hinglish-05,train
+m00033,"Sir/Madam, Pehle UPI payment pe Rs 25 cashback paayein. T&C lagu. Thanks ji.",sms,AX-VITUNI,0,,PROMO,hinglish,PROMO-hinglish-01-o3c2,PROMO-hinglish-01,test
+m00034,"Ok, I will check and tell you by evening. Have a nice day. ✅",sms,TX-VITUNI,0,,CASUAL_CHAT,en,CASUAL_CHAT-en-11-o0c3,CASUAL_CHAT-en-11,train
+m00035,EB notice: meter update pending. Connection will be cut within 2 hours. WhatsApp 7352904228 Thank you.,sms,+91 7681177589,1,BILL_DISCONNECT,,en,BILL_DISCONNECT-en-03-o0c1,BILL_DISCONNECT-en-03,train
+m00036,"Dear user, Your card ending 1996 was used for Rs 7,867.50 at D-Mart on 16/12/2026. Not you? Block it in the SBI app.",sms,BZ-PAYTMB,0,,BANK_ALERT,en,BANK_ALERT-en-04-o3c0,BANK_ALERT-en-04,train
+m00037,Attention: Get Rs 150 cashback on your first UPI payment with PhonePe. T&C apply.,sms,JD-KOTAKB,0,,PROMO,en,PROMO-en-01-o5c0,PROMO-en-01,test
+m00038,KBC Lottery: your number won ₹416035. Contact manager Karthik at 69885-16560 to release your prize.,sms,JD-PRIZES,1,PRIZE,,en,PRIZE-en-01-o0c0,PRIZE-en-01,train
+m00039,"🙏 ALERT: Earn ₹1699 per day by liking YouTube videos. Pay Rs.1,999 registration fee to start. WhatsApp 9120183667 Regards.",sms,+91 9679764381,1,TASK_JOB,,en,TASK_JOB-en-00-o4c2,TASK_JOB-en-00,train
+m00040,"Did u get the 6,495.00 I sent for the trip? Let me know. Thank u.",sms,BZ-AMAZON,0,,PERSONAL_CHAT,en,PERSONAL_CHAT-en-04-o0c1,PERSONAL_CHAT-en-04,val
+m00041,"Hi, new number. Can you transfer Rs 7,004 quickly? My bank app is not working, I will return it tonight.",whatsapp,+91 9052975161,1,FAMILY_IMPERSONATION,,en,FAMILY_IMPERSONATION-en-03-o0c0,FAMILY_IMPERSONATION-en-03,test
+m00042,ICICI Bank: Pre-approved personal loan up to Rs 5 lakh at 10.5% p.a. Apply only in the official ICICI app. Thank you.,sms,TX-ICICIT,0,,PROMO,en,PROMO-en-04-o0c1,PROMO-en-04,train
+m00043,ALERT: Your Flipkart reward of INR 3401 is ready. Reply with the OTP you received to credit it. Thank you.,sms,VK-SBIUPD,1,OTP_THEFT,,en,OTP_THEFT-en-02-o4c1,OTP_THEFT-en-02,train
+m00044,ALERT: YOUR FAT HALL TICKET IS AVAILABLE ON VTOP. DOWNLOAD IT FROM HTTPS://VTOP.VIT.AC.IN BEFORE 03/11/2026. 😊,email,noreply@vit.ac.in,0,,COLLEGE_NOTICE,en,COLLEGE_NOTICE-en-04-o4c0,COLLEGE_NOTICE-en-04,test
+m00045,"ALERT: EMI OF RS 8,234.00 FOR LOAN XX2013 IS DUE ON 15-OCT. PLEASE KEEP SUFFICIENT BALANCE. -KOTAK BANK HAVE A NICE DAY.",sms,JD-VITUNI,0,,AUTOPAY_NOTICE,en,AUTOPAY_NOTICE-en-05-o4c3,AUTOPAY_NOTICE-en-05,val
+m00046,"सूचना: दोहरा भुगतान हुआ है, पैसे वापस पाने के लिए 8151864492 पर फोन करें।",sms,VK-SBIUPD,1,FAKE_CARE,,hi,FAKE_CARE-hi-02-o2c0,FAKE_CARE-hi-02,train
+m00047,"Dear user, Your VTOP password will expire in 7 days. Change it only at https://vtop.vit.ac.in after logging in. Regards.",email,library@vit.ac.in,0,,COLLEGE_NOTICE,en,COLLEGE_NOTICE-en-08-o3c2,COLLEGE_NOTICE-en-08,train
+m00048,"Hello, Your UPI is not working due to a server issue. Install the QuickSupport app and our team will update it remotely. Regards. 😊",whatsapp,+91 5929-62229,1,REMOTE_ACCESS,,en,REMOTE_ACCESS-en-02-o1c2,REMOTE_ACCESS-en-02,train
+m00049,"Attention: Diwali sale is live! Up to 70% off on fashion at Meesho. Hurry, ends 25/12/2026. Thank you.",sms,AD-SWIGGY,0,,PROMO,en,PROMO-en-05-o5c1,PROMO-en-05,train
+m00050,"Hello, Like 10 posts, earn ₹ 6,499. To withdraw your earnings pay a small tax of Rs 1,083 first. Thank you.",sms,+91 7506 06853,1,TASK_JOB,,en,TASK_JOB-en-06-o1c1,TASK_JOB-en-06,train
+m00051,Paytm Customer Care: complaint #139-5813037 registered. Contact our executive on 92779-01043 to process the refund. Thank you.,sms,+91 1179-80893,1,FAKE_CARE,,en,FAKE_CARE-en-01-o0c1,FAKE_CARE-en-01,train
+m00052,"Dear user, your GPay account has an issue. Speak to the support team on 8188888067 now. Thank you. ✅",whatsapp,+91 2058-52772,1,FAKE_CARE,,en,FAKE_CARE-en-03-o0c1,FAKE_CARE-en-03,val
+m00053,"Hey, sent you 737.00 for the movie tickets. Check your GPay. Thank you.",sms,VK-AXISBK,0,,PERSONAL_CHAT,en,PERSONAL_CHAT-en-00-o0c1,PERSONAL_CHAT-en-00,train
+m00054,"Canara Bank: Salary of INR 63,237.00 credited to A/c XX8159 on 15/11/2026.",sms,VM-AMAZON,0,,BANK_ALERT,en,BANK_ALERT-en-05-o0c0,BANK_ALERT-en-05,train
+m00055,"Hello ji, Thoda late ho jayega, tum log shuru karo.",whatsapp,+91 5964-01658,0,,CASUAL_CHAT,hinglish,CASUAL_CHAT-hinglish-04-o2c0,CASUAL_CHAT-hinglish-04,test
+m00056,"Order confirm ho gaya, Rs 1,121.00 mil gaye. Delivery kal tak. - Domino's",sms,TX-HDFCBK,0,,MERCHANT_RECEIPT,hinglish,MERCHANT_RECEIPT-hinglish-03-o0c0,MERCHANT_RECEIPT-hinglish-03,test
+m00057,"Attention: Diwali sale is live! Up to 70% off on fashion at PhonePe. Hurry, ends 24/10/2026. Regards.",sms,VK-SWIGGY,0,,PROMO,en,PROMO-en-05-o5c2,PROMO-en-05,train
+m00058,"Hello, Got your ad for the cycle. I paid Rs 5735/- through QR, just scan and put pin to accept it. Have a nice day.",whatsapp,+91 1323 70589,1,QR_RECEIVE,,en,QR_RECEIVE-en-07-o1c3,QR_RECEIVE-en-07,train
+m00059,"757809 aapka OTP hai Rs 1,235.50 ke txn ke liye. Kisi ke saath share na karein. -AXIS Dhanyavaad.",email,alerts@icicibank.com,0,,BANK_OTP,hinglish,BANK_OTP-hinglish-00-o0c1,BANK_OTP-hinglish-00,test
+m00060,"Hi, OTP for login to HDFC Bank NetBanking is 929520. Never share your OTP, PIN or password. The bank never asks for these. Thank you.",sms,AD-ICICIT,0,,BANK_OTP,en,BANK_OTP-en-02-o2c1,BANK_OTP-en-02,train
+m00061,Your Amazon order #756-5440189 is out for delivery today. Track: https://www.amazon.in/track,sms,JD-SWIGGY,0,,DELIVERY_UPDATE,en,DELIVERY_UPDATE-en-00-o0c0,DELIVERY_UPDATE-en-00,train
+m00062,Punjab National Bank: Pre-approved personal loan up to Rs 5 lakh at 10.5% p.a. Apply only in the official PNB app.,sms,VK-VITUNI,0,,PROMO,en,PROMO-en-04-o0c0,PROMO-en-04,train
+m00063,"வணக்கம், உங்கள் Rs.8,099 கட்டணம் தோல்வியடைந்தது. ரீஃபண்ட் பெற வாடிக்கையாளர் சேவை 60469-63259 அழைக்கவும்.",whatsapp,+91 9747016873,1,FAKE_CARE,,ta,FAKE_CARE-ta-00-o1c0,FAKE_CARE-ta-00,train
+m00064,"Hi, Your scratch card worth ₹ 475875 expires today. Claim your reward now: https://tiny.cc/wyJmIeFV",sms,+91 8239868000,1,PRIZE,,en,PRIZE-en-07-o2c0,PRIZE-en-07,train
+m00065,"Mom, I paid the hostel mess fee of 5,238.00. Will call you tonight. Regards.",whatsapp,+91 7055 16940,0,,PERSONAL_CHAT,en,PERSONAL_CHAT-en-02-o0c2,PERSONAL_CHAT-en-02,test
+m00066,"ALERT: Reminder: AutoPay of Rs 2,813.00 for YouTube Premium will be debited from ur A/c XX7229 on 5-Dec. To cancel, use the PhonePe app. Have a nice day.",email,alerts@hdfcbank.com,0,,AUTOPAY_NOTICE,en,AUTOPAY_NOTICE-en-00-o4c3,AUTOPAY_NOTICE-en-00,train
+m00067,"Sir/Madam, Match dekha kal? Kya finish tha! Thanks ji.",whatsapp,+91 9733-48434,0,,CASUAL_CHAT,hinglish,CASUAL_CHAT-hinglish-05-o3c2,CASUAL_CHAT-hinglish-05,train
+m00068,"Sir/Madam, Mummy mess fee 9,203.00 bhar di hai, raat ko call karta hoon. Dhanyavaad.",whatsapp,+91 7404157473,0,,PERSONAL_CHAT,hinglish,PERSONAL_CHAT-hinglish-02-o3c1,PERSONAL_CHAT-hinglish-02,val
+m00069,Reminder: MAT1208 lab assessment tmrw at 11:15 AM in SJT-154. Carry ur ID card. Thank u. 📢,email,library@vit.ac.in,0,,COLLEGE_NOTICE,en,COLLEGE_NOTICE-en-02-o0c1,COLLEGE_NOTICE-en-02,val
+m00070,"Hi, Customer care here. Turn on screen sharing in the app so I can guide you to receive ₹ 1,964.",whatsapp,+91 7240-04991,1,REMOTE_ACCESS,,en,REMOTE_ACCESS-en-05-o2c0,REMOTE_ACCESS-en-05,train
+m00071,"Dear user, Wifi is down in our block again, so annoying. Thank you.",sms,AX-SBIINB,0,,CASUAL_CHAT,en,CASUAL_CHAT-en-16-o3c1,CASUAL_CHAT-en-16,test
+m00072,"Sir/Madam,  Aapka  Hotstar mandate ban gaya hai, max Rs 5,392.00 mahina. UPI app me manage karein. Dhanyavaad.",sms,TX-KOTAKB,0,,AUTOPAY_NOTICE,hinglish,AUTOPAY_NOTICE-hinglish-01-o3c1,AUTOPAY_NOTICE-hinglish-01,train
+m00073,"வணக்கம், அம்மா, இது என் புதிய எண். அவசரமாக ₹4,399 இந்த UPI-க்கு அனுப்புங்கள். நன்றி.",whatsapp,+91 1459 33272,1,FAMILY_IMPERSONATION,,ta,FAMILY_IMPERSONATION-ta-00-o1c1,FAMILY_IMPERSONATION-ta-00,train
+m00074,"அறிவிப்பு: அண்ணா, நான் Divya, புதிய எண். மருத்துவமனையில் இருக்கிறேன், உடனே பணம் அனுப்புங்கள்.",whatsapp,+91 8519 10883,1,FAMILY_IMPERSONATION,,ta,FAMILY_IMPERSONATION-ta-01-o2c0,FAMILY_IMPERSONATION-ta-01,test
+m00075,"I accidentally sent you Rs 8,499 instead of my brother. Please refund it through the payment request. Thank you.",sms,+91 3910-65180,1,WRONG_TRANSFER,,en,WRONG_TRANSFER-en-07-o0c1,WRONG_TRANSFER-en-07,test
+m00076,"Dear user, Your card ending 3218 was used for Rs 6,907.50 at D-Mart on 15-Nov. Not you? Block it in the PNB app. Thank you. ✅",email,alerts@icicibank.com,0,,BANK_ALERT,en,BANK_ALERT-en-04-o3c1,BANK_ALERT-en-04,train
+m00077,"Namaste,  Mummy  bol  rahi hai khana ready hai, neeche aa jao.",whatsapp,+91 6331190790,0,,CASUAL_CHAT,hinglish,CASUAL_CHAT-hinglish-06-o1c0,CASUAL_CHAT-hinglish-06,test
+m00078,"Mom says dinner is ready, come down. Thank you.",whatsapp,+91 3428 36440,0,,CASUAL_CHAT,en,CASUAL_CHAT-en-06-o0c1,CASUAL_CHAT-en-06,train
+m00079,"ALERT: Your IRCTC booking is confirmed. PNR 7547518979. Amount paid Rs 6,841.50. Visit https://www.irctc.co.in for details. Have a nice day.",sms,TX-SWIGGY,0,,MERCHANT_RECEIPT,en,MERCHANT_RECEIPT-en-06-o4c3,MERCHANT_RECEIPT-en-06,test
+m00080,सूचना: आपका BSNL प्लान 8-Nov को समाप्त होगा। ₹299 में रिचार्ज करें।,sms,VK-AXISBK,0,,PROMO,hi,PROMO-hi-02-o2c0,PROMO-hi-02,train
+m00081,"Dear consumer, your electricity will be disconnected tonight at 10:15 PM as last month's bill is not updated. Call officer 75403-31739. Thank you.",sms,+91 7175 35560,1,BILL_DISCONNECT,,en,BILL_DISCONNECT-en-00-o0c1,BILL_DISCONNECT-en-00,val
+m00082,"Hi, Your KYC can be done online only. Download RustDesk and keep the call on while our officer completes it. Thank you.",sms,BZ-REFUND,1,REMOTE_ACCESS,,en,REMOTE_ACCESS-en-06-o2c1,REMOTE_ACCESS-en-06,train
+m00083,Reliance Digital: We received your payment of ₹982.00 for order 134-2247057. Track it at https://www.reliancedigital.in/orders Thank you.,sms,VM-AXISBK,0,,MERCHANT_RECEIPT,en,MERCHANT_RECEIPT-en-02-o0c1,MERCHANT_RECEIPT-en-02,train
+m00084,Attention: Previous month bill not received. Pay Rs 756 to rahulpay@paytm within 1 hour to keep ur supply on. Have a nice day.,sms,+91 9845 46156,1,BILL_DISCONNECT,,en,BILL_DISCONNECT-en-07-o5c3,BILL_DISCONNECT-en-07,train
+m00085,ATTENTION: VIT: FEE PAYMENT FOR THE WINTER SEMESTER OPENS ON 13/11/2026. PAY ONLY THROUGH VTOP (HTTPS://VTOP.VIT.AC.IN). IGNORE MESSAGES ASKING FOR FEES ELSEWHERE.,email,noreply@vit.ac.in,0,,COLLEGE_NOTICE,en,COLLEGE_NOTICE-en-01-o5c0,COLLEGE_NOTICE-en-01,train
+m00086,सूचना: याद दिलाना: Amazon Prime के लिए ₹782.00 का ऑटोपे 22-Nov को कटेगा। धन्यवाद।,sms,AX-ICICIT,0,,AUTOPAY_NOTICE,hi,AUTOPAY_NOTICE-hi-00-o2c1,AUTOPAY_NOTICE-hi-00,test
+m00087,PhonePe sale shuru! Electronics pe 50% tak off. App pe shop karein.,sms,VK-HDFCBK,0,,PROMO,hinglish,PROMO-hinglish-00-o0c0,PROMO-hinglish-00,train
+m00088,"❗ Dear Customer, INR 1,265.50 credited to your A/c XX7499 on 01/12/2026 by UPI ref 638806010341. Avl bal INR 60,305.55. -Kotak Bank Thank you.",sms,JD-ICICIT,0,,BANK_ALERT,en,BANK_ALERT-en-01-o0c1,BANK_ALERT-en-01,train
+m00089,"Hi, Your IRCTC booking is confirmed. PNR 1457632732. Amount paid Rs 105.50. Visit https://www.irctc.co.in for details. Regards.",sms,VM-HDFCBK,0,,MERCHANT_RECEIPT,en,MERCHANT_RECEIPT-en-06-o2c2,MERCHANT_RECEIPT-en-06,test
+m00090,"Dear user, Final warning: electricity supply stops at 5:45 PM. Download the BESCOM app from support-alert.site/app.apk to pay.",sms,+91 7993-71240,1,BILL_DISCONNECT,,en,BILL_DISCONNECT-en-05-o3c0,BILL_DISCONNECT-en-05,train
+m00091,"Hi, Your Swiggy order from Behrouz Biryani is on the way! Karthik will reach in 12 mins. Have a nice day.",sms,VK-SWIGGY,0,,DELIVERY_UPDATE,en,DELIVERY_UPDATE-en-07-o2c3,DELIVERY_UPDATE-en-07,val
+m00092,"❗ வணக்கம், உங்கள் பார்சல் Delhi மையத்தில் உள்ளது, நாளை வந்து சேரும். நன்றி.",sms,TX-PAYTMB,0,,DELIVERY_UPDATE,ta,DELIVERY_UPDATE-ta-01-o1c1,DELIVERY_UPDATE-ta-01,train
+m00093,"Hi, Your insurance premium of Rs 6,723.00 will be AUTO-DEBITED on 16-Oct. Policy 358-3586094.",email,alerts@icicibank.com,0,,AUTOPAY_NOTICE,en,AUTOPAY_NOTICE-en-07-o2c0,AUTOPAY_NOTICE-en-07,train
+m00094,Ekart: Shipment BD794710793 will be delivered by 10:00 PM. Delivery agent Aditya will call you. Thank you.,sms,AX-SWIGGY,0,,DELIVERY_UPDATE,en,DELIVERY_UPDATE-en-01-o0c1,DELIVERY_UPDATE-en-01,train
+m00095,"Hi, Running 10 mins late, start without me.",whatsapp,+91 5717-75140,0,,CASUAL_CHAT,en,CASUAL_CHAT-en-04-o2c0,CASUAL_CHAT-en-04,train
+m00096,"Attention: OTP for login to Kotak Bank NetBanking is 5344. Never share your OTP, PIN or password. The bank never asks for these. Thank you.",whatsapp,+91 9966033419,0,,BANK_OTP,en,BANK_OTP-en-02-o5c1,BANK_OTP-en-02,train
+m00097,"नमस्ते, आपका ₹ 4,797 का भुगतान विफल हुआ। रिफंड के लिए कस्टमर केयर +91 89696 91557 पर कॉल करें।",sms,VM-ALERTS,1,FAKE_CARE,,hi,FAKE_CARE-hi-00-o1c0,FAKE_CARE-hi-00,test
+m00098,Attention: Final notice: Kotak Bank a/c XX7364 KYC pending. Update before 7:15 PM or a penalty of Rs 500 applies. https://kotak-care-support.info Thank you.,sms,+91 6767-72190,1,FAKE_KYC,,en,FAKE_KYC-en-05-o5c1,FAKE_KYC-en-05,train
+m00099,"Kotak Bank verification: to stop the unauthorised transaction of Rs 8,614, send us the OTP received on your mobile. Have a nice day.",sms,+91 1340-74517,1,OTP_THEFT,,en,OTP_THEFT-en-04-o0c3,OTP_THEFT-en-04,train
+m00100,"Attention: EMI of Rs 2,739.00 for loan XX3281 is due on 26-Oct. Please keep sufficient balance. -Kotak Bank Have a nice day.",sms,TX-PAYTMB,0,,AUTOPAY_NOTICE,en,AUTOPAY_NOTICE-en-05-o5c3,AUTOPAY_NOTICE-en-05,val
+m00101,"818278 என்பது ₹6,454.50 பரிவர்த்தனைக்கான உங்கள் OTP. இதை யாருடனும் பகிர வேண்டாம். -HDFC",sms,BZ-HDFCBK,0,,BANK_OTP,ta,BANK_OTP-ta-00-o0c0,BANK_OTP-ta-00,train
+m00102,"Hello ji, UPI PIN set karne ka OTP 445880 hai. 5 min valid. Share mat karo. Thanks ji.",email,noreply@amazon.in,0,,BANK_OTP,hinglish,BANK_OTP-hinglish-03-o2c2,BANK_OTP-hinglish-03,val
+m00103,ALERT:  CUSTOMER CARE HERE. TURN ON SCREEN SHARING IN THE APP SO I CAN GUIDE YOU TO RECEIVE ₹ 9774. THANK YOU.,sms,+91 3242 41541,1,REMOTE_ACCESS,,en,REMOTE_ACCESS-en-05-o4c1,REMOTE_ACCESS-en-05,train
+m00104,"नमस्ते,  मोबाइल  से  काम करें और कमाएं। पहला टास्क खोलने के लिए Rs 978 जमा करें।",sms,VM-EBBILL,1,TASK_JOB,,hi,TASK_JOB-hi-02-o1c0,TASK_JOB-hi-02,train
+m00105,"Hi, I am Divya from an HR agency. Work from home 30 mins a day, salary Rs 4599/day. Deposit INR 740 to unlock your first task. 📢",sms,+91 2697 31121,1,TASK_JOB,,en,TASK_JOB-en-02-o0c0,TASK_JOB-en-02,val
+m00106,"Hello, Your package could not be delivered as nobody was home. We will try again tomorrow. Regards.",sms,TX-KOTAKB,0,,DELIVERY_UPDATE,en,DELIVERY_UPDATE-en-02-o1c2,DELIVERY_UPDATE-en-02,train
+m00107,"Hi, Electricity bill of Rs 3,941.50 paid via AutoPay. Thank u. - MSEDCL",email,noreply@amazon.in,0,,AUTOPAY_NOTICE,en,AUTOPAY_NOTICE-en-06-o2c0,AUTOPAY_NOTICE-en-06,train
+m00108,"ALERT: Diwali sale is live! Up to 70% off on fashion at Meesho. Hurry, ends 25-Oct. Thank u.",sms,TX-AMAZON,0,,PROMO,en,PROMO-en-05-o4c1,PROMO-en-05,train
+m00109,"Hi,  Your  hostel  fee payment failed. Re-enter your VTOP login and card details at vtop.vit.ac.in.verify-login.top/login before the deadline.",email,it-support@vit-ac.in,1,VIT_PHISH,,en,VIT_PHISH-en-02-o2c0,VIT_PHISH-en-02,train
+m00110,"Dear user, Part-time job offer: rate hotels on Google Maps and earn up to Rs.4033 daily. Join our Telegram for tasks.",whatsapp,+91 2524 10564,1,TASK_JOB,,en,TASK_JOB-en-01-o3c0,TASK_JOB-en-01,train
+m00111,"🙏 Dear user, Your OTP to change your mobile number is 4532. If you did not request this, call 1800 1234. Never share OTP. Regards.",sms,AX-ICICIT,0,,BANK_OTP,en,BANK_OTP-en-07-o3c2,BANK_OTP-en-07,train
+m00112,"सूचना: बधाई हो, परीक्षा में अच्छे नंबर आए! धन्यवाद।",whatsapp,+91 4195-18023,0,,CASUAL_CHAT,hi,CASUAL_CHAT-hi-05-o2c1,CASUAL_CHAT-hi-05,train
+m00113,"வணக்கம், உங்கள் உள்நுழைவு ஓடிபி 043277. வங்கி ஒருபோதும் கேட்காது, பகிர வேண்டாம். நன்றி.",email,noreply@amazon.in,0,,BANK_OTP,ta,BANK_OTP-ta-01-o1c1,BANK_OTP-ta-01,test
+m00114,"Aapka Netflix mandate ban gaya hai, max Rs 3,837.00 mahina. UPI app me manage karein. Dhanyavaad. 🔴",sms,AD-AXISBK,0,,AUTOPAY_NOTICE,hinglish,AUTOPAY_NOTICE-hinglish-01-o0c1,AUTOPAY_NOTICE-hinglish-01,train
+m00115,"Receipt: ₹3,812.00 paid to VIT Food Court on 14-Dec at 10:00 AM. Enjoy your meal!",sms,JD-AMAZON,0,,MERCHANT_RECEIPT,en,MERCHANT_RECEIPT-en-04-o0c0,MERCHANT_RECEIPT-en-04,train
+m00116,"Hello ji, Order deliver ho gaya. Flipkart app me rating dein. 👍",sms,TX-AXISBK,0,,DELIVERY_UPDATE,hinglish,DELIVERY_UPDATE-hinglish-03-o2c0,DELIVERY_UPDATE-hinglish-03,train
+m00117,"Hello,  Your  Amazon verification code is 8302. Do not share it with anyone, Amazon will never call you to ask for it. Regards.",whatsapp,+91 7171210032,0,,BANK_OTP,en,BANK_OTP-en-01-o1c2,BANK_OTP-en-01,train
+m00118,Use OTP 1680 to complete ur Swiggy order delivery. Please do not share it with anyone except the DELIVERY agent at ur door.,sms,BZ-ICICIT,0,,BANK_OTP,en,BANK_OTP-en-04-o0c0,BANK_OTP-en-04,train
+m00119,"🔴 Dear user, Your FAT hall ticket is available on VTOP. Download it from https://vtop.vit.ac.in before 2-Dec. Thank you.",email,exam.cell@vit.ac.in,0,,COLLEGE_NOTICE,en,COLLEGE_NOTICE-en-04-o3c1,COLLEGE_NOTICE-en-04,test
+m00120,"Hello ji, Aapka KOTAK card Domino's par Rs 7,960.50 ke liye use hua. Agar aap nahi the to app se block karein. Dhanyavaad.",whatsapp,+91 0785 93213,0,,BANK_ALERT,hinglish,BANK_ALERT-hinglish-03-o2c1,BANK_ALERT-hinglish-03,val
+m00121,"ALERT: UPI TXN OF RS 5,833.00 TO ANANYA SUCCESSFUL. REF NO 749556041080. BALANCE: RS 83,862.99. - ICICI HAVE A NICE DAY.",sms,AX-SWIGGY,0,,BANK_ALERT,en,BANK_ALERT-en-03-o4c3,BANK_ALERT-en-03,test
+m00122,"PhonePe Refund Desk: Rs 825/- cashback is pending. To receive it, approve the payment request sent to your UPI app and enter PIN. Thank you.",sms,AX-PRIZES,1,COLLECT_REFUND,,en,COLLECT_REFUND-en-01-o0c1,COLLECT_REFUND-en-01,train
+m00123,"Attention: Your cashback of Rs.2,199 is waiting. Scan the QR below to receive the cashback directly in your bank. Have a nice day.",whatsapp,+91 3926-44220,1,QR_RECEIVE,,en,QR_RECEIVE-en-05-o5c3,QR_RECEIVE-en-05,train
+m00124,"प्रिय उपभोक्ता, आपकी बिजली आज रात 10:15 AM बजे काट दी जाएगी। तुरंत बिजली अधिकारी को +91 92513 55215 पर कॉल करें। धन्यवाद।",sms,+91 0067 62676,1,BILL_DISCONNECT,,hi,BILL_DISCONNECT-hi-00-o0c1,BILL_DISCONNECT-hi-00,test
+m00125,"Dear user, Your Netflix subscription renews on 10-Oct. Rs 1,235.50 will be charged via UPI AutoPay.",sms,AD-SWIGGY,0,,AUTOPAY_NOTICE,en,AUTOPAY_NOTICE-en-02-o3c0,AUTOPAY_NOTICE-en-02,train
+m00126,"Namaste, Order confirm ho gaya, Rs 1,679.50 mil gaye. Delivery kal tak. - Zomato",sms,VM-SBIINB,0,,MERCHANT_RECEIPT,hinglish,MERCHANT_RECEIPT-hinglish-03-o1c0,MERCHANT_RECEIPT-hinglish-03,test
+m00127,"✅ Mom, I paid the hostel mess fee of 82.50. Will call u tonight. Regards.",sms,TX-HDFCBK,0,,PERSONAL_CHAT,en,PERSONAL_CHAT-en-02-o0c2,PERSONAL_CHAT-en-02,test
+m00128,"Your  mobile  number  has been selected for a cash prize of Rs.800,399. Reply YES and pay the delivery charge. Have a nice day.",sms,+91 8693-80686,1,PRIZE,,en,PRIZE-en-04-o0c3,PRIZE-en-04,train
+m00129,"Hello ji, Bijli bill Rs 6,488.00 autopay se bhar diya gaya. Dhanyavaad. - BESCOM",sms,AX-ICICIT,0,,AUTOPAY_NOTICE,hinglish,AUTOPAY_NOTICE-hinglish-03-o2c0,AUTOPAY_NOTICE-hinglish-03,test
+m00130,"Croma இல் ₹7,153.00 கட்டணம் வெற்றிகரமாக செலுத்தப்பட்டது. ஆர்டர் #942-3480985. நன்றி!",email,alerts@hdfcbank.com,0,,MERCHANT_RECEIPT,ta,MERCHANT_RECEIPT-ta-00-o0c0,MERCHANT_RECEIPT-ta-00,train
+m00131,"HI, SEND ME YOUR ADDRESS, I WILL DROP THE BOOK TOMORROW. HAVE A NICE DAY.",sms,AX-ICICIT,0,,CASUAL_CHAT,en,CASUAL_CHAT-en-10-o2c3,CASUAL_CHAT-en-10,test
+m00132,"ALERT: Your Myntra verification code is 882654. Do not share it with anyone, Myntra will never call you to ask for it.",whatsapp,+91 0745-05444,0,,BANK_OTP,en,BANK_OTP-en-01-o4c0,BANK_OTP-en-01,train
+m00133,"नमस्ते, याद दिलाना: Amazon Prime के लिए ₹4,434.00 का ऑटोपे 14-Dec को कटेगा। धन्यवाद।",sms,BZ-PAYTMB,0,,AUTOPAY_NOTICE,hi,AUTOPAY_NOTICE-hi-00-o1c1,AUTOPAY_NOTICE-hi-00,test
+m00134,जन्मदिन की बहुत बहुत शुभकामनाएँ! खूब खुश रहो। धन्यवाद।,whatsapp,+91 2330-30705,0,,CASUAL_CHAT,hi,CASUAL_CHAT-hi-01-o0c1,CASUAL_CHAT-hi-01,test
+m00135,"Attention: Congratulations on clearing the exam, so proud of you!",whatsapp,+91 2414-06029,0,,CASUAL_CHAT,en,CASUAL_CHAT-en-12-o5c0,CASUAL_CHAT-en-12,train
+m00136,"Sir, by mistake I entered your number for OTP. Please forward the code you just got, it is urgent. Have a nice day.",sms,AX-BNKUPD,1,OTP_THEFT,,en,OTP_THEFT-en-03-o0c3,OTP_THEFT-en-03,train
+m00137,"Papa phone kho gaya, ye naya number save karo. Exam fee ₹6,212 aaj hi bhejo. Dhanyavaad.",whatsapp,+91 8994-41715,1,FAMILY_IMPERSONATION,,hinglish,FAMILY_IMPERSONATION-hinglish-02-o0c1,FAMILY_IMPERSONATION-hinglish-02,val
+m00138,"Namaste, Kal 9:15 AM baje HUM2656 ka lab test hai, ID card le kar aana.",email,library@vit.ac.in,0,,COLLEGE_NOTICE,hinglish,COLLEGE_NOTICE-hinglish-02-o1c0,COLLEGE_NOTICE-hinglish-02,test
+m00139,"Namaste, Loan EMI Rs 8,779.00 22/11/2026 ko due hai, khate me balance rakhein. -CANARA Thanks ji.",sms,AD-ICICIT,0,,AUTOPAY_NOTICE,hinglish,AUTOPAY_NOTICE-hinglish-02-o1c2,AUTOPAY_NOTICE-hinglish-02,train
+m00140,"848354 आपका ओटीपी है ₹1,949.50 के लेनदेन के लिए। इसे किसी के साथ साझा न करें। -SBI",email,alerts@hdfcbank.com,0,,BANK_OTP,hi,BANK_OTP-hi-00-o0c0,BANK_OTP-hi-00,test
+m00141,"ALERT: To receive your OLX payment of Rs.7299, scan the QR code and confirm with your UPI PIN. Regards.",whatsapp,+91 7175250074,1,QR_RECEIVE,,en,QR_RECEIVE-en-06-o4c2,QR_RECEIVE-en-06,train
+m00142,"Order confirm ho gaya, Rs 7,125.00 mil gaye. Delivery kal tak. - D-Mart",whatsapp,+91 0033 54216,0,,MERCHANT_RECEIPT,hinglish,MERCHANT_RECEIPT-hinglish-03-o0c0,MERCHANT_RECEIPT-hinglish-03,test
+m00143,"Hi, Income tax refund ₹ 9,023 sanctioned. Kindly accept request from karthik.refund@axl and enter UPI PIN to receive refund in your account. Have a nice day.",sms,AD-SBIUPD,1,COLLECT_REFUND,,en,COLLECT_REFUND-en-04-o2c3,COLLECT_REFUND-en-04,val
+m00144,"ATTENTION: ALERT: YOUR CANARA DEBIT CARD HAS BEEN BLOCKED AS REQUESTED. FOR A NEW CARD, VISIT THE BRANCH OR USE THE OFFICIAL APP. REGARDS.",sms,VK-HDFCBK,0,,BANK_ALERT,en,BANK_ALERT-en-06-o5c2,BANK_ALERT-en-06,val
+m00145,"❗ Dear user, You must have got a credit SMS of ₹3865. That was wrongly sent by me, return it to pooja.22@okicici please. Thank you.",sms,+91 4835 64208,1,WRONG_TRANSFER,,en,WRONG_TRANSFER-en-04-o3c1,WRONG_TRANSFER-en-04,train
+m00146,Order #787-2493219 delivered. Rate your delivery experience in the Flipkart app. 😊,sms,JD-KOTAKB,0,,DELIVERY_UPDATE,en,DELIVERY_UPDATE-en-03-o0c0,DELIVERY_UPDATE-en-03,test
+m00147,"Dear Customer, ur Canara Bank account will be blocked 2day. Update ur KYC immediately at tinyurl.com/PkwBM2 Regards.",sms,TX-EBBILL,1,FAKE_KYC,,en,FAKE_KYC-en-00-o0c2,FAKE_KYC-en-00,train
+m00148,"State Bank of India: आपकी केवाईसी समाप्त हो गई है, खाता निलंबित होगा। यहाँ अपडेट करें https://is.gd/XQlxwbQZ",email,support.kyc.desk@gmail.com,1,FAKE_KYC,,hi,FAKE_KYC-hi-02-o0c0,FAKE_KYC-hi-02,test
+m00149,"सूचना: आपका लॉगिन ओटीपी 7675 है। बैंक कभी ओटीपी नहीं मांगता, किसी को न बताएं। धन्यवाद।",sms,JD-PAYTMB,0,,BANK_OTP,hi,BANK_OTP-hi-01-o2c1,BANK_OTP-hi-01,train
+m00150,661886 is ur VTOP login OTP. Do not disclose it to anyone. - VIT Have a nice day.,sms,JD-AXISBK,0,,BANK_OTP,en,BANK_OTP-en-06-o0c3,BANK_OTP-en-06,train
+m00151,"Madam, my son paid Rs 4,299/- to your account by mistake. Please approve my collect request, God bless you. Have a nice day.",sms,+91 1994 88375,1,WRONG_TRANSFER,,en,WRONG_TRANSFER-en-03-o0c3,WRONG_TRANSFER-en-03,train
+m00152,"ALERT: Jackpot! ₹ 1,548,767 added to your reward wallet. Unlock it by paying ₹ 553 at https://is.gd/RckiSSg Have a nice day.",sms,+91 9091779827,1,PRIZE,,en,PRIZE-en-05-o4c3,PRIZE-en-05,train
+m00153,"Namaste, Weekend offer: Reliance Digital pe 1 ke saath 1 free! Thanks ji.",whatsapp,+91 9346 54722,0,,PROMO,hinglish,PROMO-hinglish-03-o1c2,PROMO-hinglish-03,train
+m00154,"Namaste, Kal 4:30 PM baje MAT3910 ka lab test hai, ID card le kar aana.",sms,BZ-AMAZON,0,,COLLEGE_NOTICE,hinglish,COLLEGE_NOTICE-hinglish-02-o1c0,COLLEGE_NOTICE-hinglish-02,test
+m00155,"SIR/MADAM, THODA LATE HO JAYEGA, TUM LOG SHURU KARO.",whatsapp,+91 4420-43805,0,,CASUAL_CHAT,hinglish,CASUAL_CHAT-hinglish-04-o3c0,CASUAL_CHAT-hinglish-04,test
+m00156,"🔴 Attention: Good morning! Carry an umbrella, it is raining in Hyderabad today. Have a nice day.",whatsapp,+91 8004-39735,0,,CASUAL_CHAT,en,CASUAL_CHAT-en-07-o5c3,CASUAL_CHAT-en-07,train
+m00157,"Dear  user,  Mandate request from YouTube Premium for RS 1,240.00 has been approved. You can revoke it any time in PhonePe. Thank you. ❗",sms,AX-SBIINB,0,,AUTOPAY_NOTICE,en,AUTOPAY_NOTICE-en-04-o3c1,AUTOPAY_NOTICE-en-04,test
+m00158,"Dear user, Income tax refund Rs.1,693 sanctioned. KINDLY accept request from ananyapay@ybl and enter UPI PIN to receive refund in your account. Regards.",sms,AD-REFUND,1,COLLECT_REFUND,,en,COLLECT_REFUND-en-04-o3c2,COLLECT_REFUND-en-04,val
+m00159,அறிவிப்பு: உங்கள் கணக்கு XX8301 இலிருந்து 8-Dec அன்று ₹673.00 பற்று வைக்கப்பட்டது. நீங்கள் செய்யவில்லையா? 1800 266 0050 அழைக்கவும். நன்றி.,sms,JD-PAYTMB,0,,BANK_ALERT,ta,BANK_ALERT-ta-00-o2c1,BANK_ALERT-ta-00,train
+m00160,"SIR/MADAM, SORRY GALAT NUMBER PAR ₹1199 TRANSFER HO GAYA, NIKHIL85@AXL PE WAPAS KAR DO. DHANYAVAAD.",whatsapp,+91 6386120750,1,WRONG_TRANSFER,,hinglish,WRONG_TRANSFER-hinglish-02-o3c1,WRONG_TRANSFER-hinglish-02,val
+m00161,ALERT: Happy birthday Rohan! Have an amazing year ahead. Thank you.,sms,VK-HDFCBK,0,,CASUAL_CHAT,en,CASUAL_CHAT-en-02-o4c1,CASUAL_CHAT-en-02,test
+m00162,Myntra OTP: 074364. Ye code kisi ko na bataye. Dhanyavaad.,sms,VK-VITUNI,0,,BANK_OTP,hinglish,BANK_OTP-hinglish-02-o0c1,BANK_OTP-hinglish-02,train
+m00163,தவறுதலாக Rs 581/- உங்கள் எண்ணுக்கு அனுப்பிவிட்டேன். தயவுசெய்து திருப்பி அனுப்புங்கள்.,whatsapp,+91 8368222394,1,WRONG_TRANSFER,,ta,WRONG_TRANSFER-ta-00-o0c0,WRONG_TRANSFER-ta-00,train
+m00164,"Attention: Rs 4,782.00 received from Arjun via UPI on 07/12/2026. Updated balance Rs 249,940.52. -ICICI",sms,AD-KOTAKB,0,,BANK_ALERT,en,BANK_ALERT-en-07-o5c0,BANK_ALERT-en-07,train
+m00165,"Hello ji, Bijli bill Rs.3,299 pending hai, abhi http://paytm-reward-verify.com/login par pay karo warna connection band. Dhanyavaad.",sms,+91 1080-99693,1,BILL_DISCONNECT,,hinglish,BILL_DISCONNECT-hinglish-02-o2c1,BILL_DISCONNECT-hinglish-02,train
+m00166,Attention: Merry Christmas to you and the whole family! Thank you.,whatsapp,+91 9580392827,0,,CASUAL_CHAT,en,CASUAL_CHAT-en-15-o5c1,CASUAL_CHAT-en-15,train
+m00167,"Hi, Paid ₹3,605.50 to Divya (Auto). Thank you for using GPay.",email,alerts@hdfcbank.com,0,,MERCHANT_RECEIPT,en,MERCHANT_RECEIPT-en-07-o2c0,MERCHANT_RECEIPT-en-07,val
+m00168,Attention: Use OTP 516368 to complete your Myntra order delivery. Please do not share it with anyone except the delivery agent at your door. Regards.,sms,AD-SBIINB,0,,BANK_OTP,en,BANK_OTP-en-04-o5c2,BANK_OTP-en-04,train
+m00169,"Dear user, as per RBI guidelines your KYC has expired. Click https://icic1bank.com/login and update Aadhaar to continue using UPI. Regards.",sms,+91 2809 20242,1,FAKE_KYC,,en,FAKE_KYC-en-03-o0c2,FAKE_KYC-en-03,train
+m00170,"Your card ending 8359 was used for Rs 9,957.50 at Domino's on 16-Oct. Not you? Block it in the CANARA app. Thank you.",email,alerts@hdfcbank.com,0,,BANK_ALERT,en,BANK_ALERT-en-04-o0c1,BANK_ALERT-en-04,train
+m00171,"Hi, I am interested in ur laptop on OLX. I have sent a QR code, scan it to receive Rs 2099/- advance payment. Have a nice day.",whatsapp,+91 6865-08637,1,QR_RECEIVE,,en,QR_RECEIVE-en-00-o0c3,QR_RECEIVE-en-00,train
+m00172,790552 is ur VTOP login OTP. Do not DISCLOSE it to anyone. - VIT Regards. ✅,sms,AX-AMAZON,0,,BANK_OTP,en,BANK_OTP-en-06-o0c2,BANK_OTP-en-06,train
+m00173,"Hello ji, Aapke account me Rs.5,013 aaye honge mere, galti se gaye, return kar dijiye jaldi. Thanks ji.",sms,+91 2137-21386,1,WRONG_TRANSFER,,hinglish,WRONG_TRANSFER-hinglish-03-o2c2,WRONG_TRANSFER-hinglish-03,train
+m00174,"Sir/Madam, Rs 106.00 AAPKE khate me credit ho gaye. UPI Ref 262449645250. -AXIS Thanks ji.",email,alerts@icicibank.com,0,,BANK_ALERT,hinglish,BANK_ALERT-hinglish-01-o3c2,BANK_ALERT-hinglish-01,test
+m00175,"Sir/Madam, Rs 195.00 aapke khate me credit ho gaye. UPI Ref 825207665919. -CANARA Dhanyavaad.",sms,JD-AXISBK,0,,BANK_ALERT,hinglish,BANK_ALERT-hinglish-01-o3c1,BANK_ALERT-hinglish-01,test
+m00176,Zomato OTP: 557002. Ye code kisi ko na bataye. Dhanyavaad.,sms,BZ-SBIINB,0,,BANK_OTP,hinglish,BANK_OTP-hinglish-02-o0c1,BANK_OTP-hinglish-02,train
+m00177,ALERT: Buyer here for your guitar. Scan the attached QR and enter UPI PIN to receive Rs 2416/- in your account. Regards.,whatsapp,+91 7907 14163,1,QR_RECEIVE,,en,QR_RECEIVE-en-01-o4c2,QR_RECEIVE-en-01,train
+m00178,"Attention: Your payment of ₹ 4,599 to Domino's failed. Call customer care at 8182755394 for an immediate refund. Regards.",sms,+91 9521-11790,1,FAKE_CARE,,en,FAKE_CARE-en-00-o5c2,FAKE_CARE-en-00,train
+m00179,"ALERT: Jackpot! Rs 2090025/- added to your reward wallet. Unlock it by paying Rs 1,899/- at https://rb.gy/UhGA6c Regards. 📢",sms,+91 5594 28434,1,PRIZE,,en,PRIZE-en-05-o4c2,PRIZE-en-05,train
+m00180,"Namaste, Aapka inaam INR 1,586,599 ready hai, bas GST ₹ 467 pay karo abhi. Dhanyavaad.",sms,AX-PRIZES,1,PRIZE,,hinglish,PRIZE-hinglish-03-o1c1,PRIZE-hinglish-03,val
+m00181,"Dear user, Final notice: ICICI Bank a/c XX1781 KYC pending. Update before 7:00 AM or a penalty of Rs 500 applies. http://onlinesbi-sbi.com/login Regards.",sms,AD-SBIUPD,1,FAKE_KYC,,en,FAKE_KYC-en-05-o3c2,FAKE_KYC-en-05,train
+m00182,அறிவிப்பு:  புகார் பதிவு செய்யப்பட்டது. எங்கள் அதிகாரியை +91 66947 22569 இல் தொடர்பு கொள்ளவும். நன்றி.,sms,+91 4964 75987,1,FAKE_CARE,,ta,FAKE_CARE-ta-01-o2c1,FAKE_CARE-ta-01,test
+m00183,"Hi, new number. Can you transfer Rs 3,899 quickly? My bank app IS not working, I will return it tonight.",whatsapp,+91 6433-47228,1,FAMILY_IMPERSONATION,,en,FAMILY_IMPERSONATION-en-03-o0c0,FAMILY_IMPERSONATION-en-03,test
+m00184,"Dear user, Your Swiggy order from Behrouz Biryani is on the way! Harish will reach in 12 mins. Regards.",whatsapp,+91 9884578317,0,,DELIVERY_UPDATE,en,DELIVERY_UPDATE-en-07-o3c2,DELIVERY_UPDATE-en-07,val
+m00185,"ALERT: YOUR REFUND OF ₹ 6,099 FOR ORDER #603-9003857 HAS BEEN APPROVED. ACCEPT THE COLLECT REQUEST FROM MEERA.REFUND@OKICICI AND ENTER YOUR UPI PIN TO RECEIVE THE AMOUNT. THANK YOU.",sms,+91 9634163894,1,COLLECT_REFUND,,en,COLLECT_REFUND-en-00-o4c1,COLLECT_REFUND-en-00,train
+m00186,Pehle UPI payment pe Rs 50 cashback paayein. T&C lagu.,sms,VM-PAYTMB,0,,PROMO,hinglish,PROMO-hinglish-01-o0c0,PROMO-hinglish-01,test
+m00187,"Hello, Your FAT hall ticket is available on VTOP. Download it from https://vtop.vit.ac.in b4 24-Oct. Have a nice day.",email,noreply@vit.ac.in,0,,COLLEGE_NOTICE,en,COLLEGE_NOTICE-en-04-o1c3,COLLEGE_NOTICE-en-04,test
+m00188,"Hi, Thank you for shopping at Swiggy. Piad Rs 8,919.50 via UPI. Order #285-4224451. Invoice: https://www.swiggy.com/invoice Have a nice day.",sms,VM-AXISBK,0,,MERCHANT_RECEIPT,en,MERCHANT_RECEIPT-en-00-o2c3,MERCHANT_RECEIPT-en-00,train
+m00189,"Mom says dinner is ready, come down. Have a nice day. 📢",whatsapp,+91 5031-36502,0,,CASUAL_CHAT,en,CASUAL_CHAT-en-06-o0c3,CASUAL_CHAT-en-06,train
+m00190,"Share  the  OTP sent to your number to confirm your Rs.2,999 cashback. Have a nice day.",sms,TX-SBIUPD,1,OTP_THEFT,,en,OTP_THEFT-en-00-o0c3,OTP_THEFT-en-00,train
+m00191,"HELLO, CHECK YOUR ACCOUNT, RS.848 CAME FROM ME BY MISTAKE. I AM A STUDENT, PLEASE RETURN IT QUICKLY. THANK YOU.",whatsapp,+91 8557 49821,1,WRONG_TRANSFER,,en,WRONG_TRANSFER-en-05-o0c1,WRONG_TRANSFER-en-05,train
+m00192,"Dear user, Ok, I will check and tell you by evening.",whatsapp,+91 8186387829,0,,CASUAL_CHAT,en,CASUAL_CHAT-en-11-o3c0,CASUAL_CHAT-en-11,train
+m00193,Buyer here for ur laptop. Scan the attached QR and enter UPI PIN to receive Rs 999 in ur account. Thank u.,sms,+91 0371-70586,1,QR_RECEIVE,,en,QR_RECEIVE-en-01-o0c1,QR_RECEIVE-en-01,train
+m00194,"Bijli bill Rs.1,652 pending hai, abhi http://sbi-secure.site/update par pay karo warna connection band. Thanks ji.",sms,BZ-SBIUPD,1,BILL_DISCONNECT,,hinglish,BILL_DISCONNECT-hinglish-02-o0c2,BILL_DISCONNECT-hinglish-02,train
+m00195,"ALERT: Diwali sale is live! Up to 70% off on fashion at PhonePe. Hurry, ends 24/11/2026. Thank you.",sms,JD-SBIINB,0,,PROMO,en,PROMO-en-05-o4c1,PROMO-en-05,train
+m00196,"Attention: Your payment of Rs 9,570/- to Zomato failed. Call customer care at 6075224593 for an immediate refund. Regards.",whatsapp,+91 7919-40961,1,FAKE_CARE,,en,FAKE_CARE-en-00-o5c2,FAKE_CARE-en-00,train
+m00197,"पार्ट टाइम नौकरी: रोज़ Rs 7624 कमाइए, काम शुरू करने के लिए ₹1,397 पंजीकरण शुल्क दें।",whatsapp,+91 8832067998,1,TASK_JOB,,hi,TASK_JOB-hi-01-o0c0,TASK_JOB-hi-01,train
+m00198,"D-Mart: We received your payment of ₹9,382.00 for order 150-7697318. Track it at https://www.dmart.in/orders",sms,BZ-AXISBK,0,,MERCHANT_RECEIPT,en,MERCHANT_RECEIPT-en-02-o0c0,MERCHANT_RECEIPT-en-02,train
+m00199,"Hello, Good morning! Carry an umbrella, it is raining in Pnue today.",whatsapp,+91 4259-79270,0,,CASUAL_CHAT,en,CASUAL_CHAT-en-07-o1c0,CASUAL_CHAT-en-07,train
