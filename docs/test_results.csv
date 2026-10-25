@@ -1,0 +1,37 @@
+id,category,expected,actual,score,pass,signals_ok,missing_signals,latency_ms
+T01,FAKE_KYC,HIGH_RISK,HIGH_RISK,98,True,yes,,38.8
+T02,COLLECT_REFUND (Hinglish),HIGH_RISK,HIGH_RISK,98,True,yes,,5.1
+T03,QR_RECEIVE,HIGH_RISK,HIGH_RISK,96,True,yes,,4.3
+T04,OTP_THEFT,HIGH_RISK,HIGH_RISK,79,True,yes,,3.9
+T05,REMOTE_ACCESS,HIGH_RISK,HIGH_RISK,95,True,yes,,4.0
+T06,VIT_PHISH (Q5),HIGH_RISK,HIGH_RISK,96,True,yes,,6.1
+T07,TASK_JOB (Hindi),HIGH_RISK,HIGH_RISK,75,True,yes,,4.9
+T08,BILL_DISCONNECT (Tamil),SUSPICIOUS|HIGH_RISK,HIGH_RISK,94,True,yes,,4.4
+T09,Legit OTP,SAFE,SAFE,0,True,yes,,3.1
+T10,Legit debit alert,SAFE,SAFE,0,True,yes,,2.8
+T11,Legit VIT notice,SAFE,SAFE,0,True,yes,,2.8
+T12,Legit promo,SAFE|SUSPICIOUS,SAFE,0,True,yes,,2.9
+T13,Ambiguous friend,SUSPICIOUS,SAFE,19,False,yes,,2.8
+T14,Out of scope: empty,422,422,,True,yes,,1.1
+T15,Txn: collect from new payee,HIGH_RISK,HIGH_RISK,98,True,yes,,11.4
+T16,Txn: night high value,HIGH_RISK,HIGH_RISK,97,True,yes,,7.0
+T17,Txn: normal canteen,SAFE,SAFE,0,True,yes,,4.7
+T18,Txn: mule pattern,HIGH_RISK,HIGH_RISK,100,True,yes,,4.2
+T19,Out of scope: poem,SAFE,SAFE,8,True,yes,,4.5
+T20,"Out of scope: 2,001 chars",422,422,,True,yes,,1.2
+T21,FAKE_CARE,SUSPICIOUS|HIGH_RISK,HIGH_RISK,87,True,yes,,13.7
+T22,PRIZE,HIGH_RISK,HIGH_RISK,89,True,yes,,7.6
+T23,WRONG_TRANSFER,SUSPICIOUS|HIGH_RISK,SUSPICIOUS,69,True,yes,,7.6
+T24,FAMILY_IMPERSONATION,SUSPICIOUS|HIGH_RISK,HIGH_RISK,93,True,yes,,5.0
+T25,Legit merchant receipt,SAFE,SAFE,1,True,yes,,2.9
+T26,Legit autopay notice,SAFE,SAFE,0,True,yes,,3.5
+T27,Legit delivery OTP,SAFE,SAFE,0,True,yes,,3.7
+T28,Legit personal money chat,SAFE,SAFE,0,True,yes,,3.2
+T29,FAKE_KYC (Hindi),HIGH_RISK,HIGH_RISK,96,True,yes,,6.0
+T30,OTP_THEFT (Tamil),HIGH_RISK,HIGH_RISK,83,True,yes,,4.9
+T31,"Ambiguous: money, no context",SAFE|SUSPICIOUS,SAFE,12,True,yes,,3.0
+T32,Ambiguous: statement ready,SAFE|SUSPICIOUS,SUSPICIOUS,69,True,yes,,4.6
+T33,Txn: device change high value,HIGH_RISK,HIGH_RISK,100,True,yes,,4.2
+T34,Txn: rent to known landlord,SAFE,SAFE,0,True,yes,,6.9
+T35,Txn: malformed (negative amount),422,422,,True,yes,,2.6
+T36,Security: script text,SAFE|SUSPICIOUS|HIGH_RISK,SUSPICIOUS,54,True,yes,,12.8
