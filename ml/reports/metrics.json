@@ -1,0 +1,538 @@
+{
+  "generated_at": "2026-10-25T04:06:36+00:00",
+  "data_hash": "fcb0298a8415",
+  "message": {
+    "test_size": 1318,
+    "train_size": 4382,
+    "n_templates_test": 87,
+    "threshold": 0.6822,
+    "fusion_weight": 0.9,
+    "rule_floor_min": 0.75,
+    "models": [
+      {
+        "key": "keyword",
+        "name": "Keyword baseline (20 words)",
+        "precision": 0.6455,
+        "recall": 0.4143,
+        "f1": 0.5047,
+        "pr_auc": 0.5833,
+        "confusion": [
+          [
+            595,
+            134
+          ],
+          [
+            345,
+            244
+          ]
+        ]
+      },
+      {
+        "key": "rules",
+        "name": "Rules only",
+        "precision": 0.8463,
+        "recall": 0.8693,
+        "f1": 0.8576,
+        "pr_auc": 0.9228,
+        "confusion": [
+          [
+            636,
+            93
+          ],
+          [
+            77,
+            512
+          ]
+        ]
+      },
+      {
+        "key": "model",
+        "name": "TF-IDF + LR model only",
+        "precision": 0.9855,
+        "recall": 0.9236,
+        "f1": 0.9535,
+        "pr_auc": 0.996,
+        "confusion": [
+          [
+            721,
+            8
+          ],
+          [
+            45,
+            544
+          ]
+        ]
+      },
+      {
+        "key": "fused",
+        "name": "Verity (model + rules + floors)",
+        "precision": 0.9915,
+        "recall": 0.9847,
+        "f1": 0.9881,
+        "pr_auc": 0.9996,
+        "confusion": [
+          [
+            724,
+            5
+          ],
+          [
+            9,
+            580
+          ]
+        ]
+      }
+    ],
+    "recall_by_scam_type": [
+      {
+        "group": "FAKE_CARE",
+        "n": 61,
+        "value": 0.918
+      },
+      {
+        "group": "TASK_JOB",
+        "n": 45,
+        "value": 0.9556
+      },
+      {
+        "group": "VIT_PHISH",
+        "n": 56,
+        "value": 0.9643
+      },
+      {
+        "group": "BILL_DISCONNECT",
+        "n": 57,
+        "value": 1.0
+      },
+      {
+        "group": "COLLECT_REFUND",
+        "n": 47,
+        "value": 1.0
+      },
+      {
+        "group": "FAKE_KYC",
+        "n": 53,
+        "value": 1.0
+      },
+      {
+        "group": "FAMILY_IMPERSONATION",
+        "n": 48,
+        "value": 1.0
+      },
+      {
+        "group": "OTP_THEFT",
+        "n": 33,
+        "value": 1.0
+      },
+      {
+        "group": "PRIZE",
+        "n": 45,
+        "value": 1.0
+      },
+      {
+        "group": "QR_RECEIVE",
+        "n": 49,
+        "value": 1.0
+      },
+      {
+        "group": "REMOTE_ACCESS",
+        "n": 41,
+        "value": 1.0
+      },
+      {
+        "group": "WRONG_TRANSFER",
+        "n": 54,
+        "value": 1.0
+      }
+    ],
+    "f1_by_language": [
+      {
+        "group": "ta",
+        "n": 160,
+        "value": 0.9747
+      },
+      {
+        "group": "hinglish",
+        "n": 411,
+        "value": 0.9778
+      },
+      {
+        "group": "en",
+        "n": 536,
+        "value": 0.9957
+      },
+      {
+        "group": "hi",
+        "n": 211,
+        "value": 1.0
+      }
+    ],
+    "fpr_by_legit_class": [
+      {
+        "group": "AUTOPAY_NOTICE",
+        "n": 79,
+        "value": 0.0
+      },
+      {
+        "group": "BANK_ALERT",
+        "n": 79,
+        "value": 0.0
+      },
+      {
+        "group": "BANK_OTP",
+        "n": 79,
+        "value": 0.0
+      },
+      {
+        "group": "COLLEGE_NOTICE",
+        "n": 80,
+        "value": 0.0
+      },
+      {
+        "group": "DELIVERY_UPDATE",
+        "n": 80,
+        "value": 0.0
+      },
+      {
+        "group": "MERCHANT_RECEIPT",
+        "n": 93,
+        "value": 0.0
+      },
+      {
+        "group": "PERSONAL_CHAT",
+        "n": 97,
+        "value": 0.0
+      },
+      {
+        "group": "PROMO",
+        "n": 70,
+        "value": 0.0
+      },
+      {
+        "group": "CASUAL_CHAT",
+        "n": 72,
+        "value": 0.0694
+      }
+    ],
+    "hard_negative_fpr": 0.0069,
+    "scam_type_accuracy": 0.8014,
+    "external_uci": {
+      "precision": 0.2579,
+      "recall": 0.4485,
+      "f1": 0.3275,
+      "pr_auc": 0.3073,
+      "n": 5574,
+      "note": "Out-of-domain check only: UCI is 2010-era UK promotional spam, not UPI fraud. Verity is specialised for UPI scams, so lower recall here is expected."
+    }
+  },
+  "transaction": {
+    "test_size": 7935,
+    "train_size": 23688,
+    "fraud_rate_test": 0.031,
+    "threshold": 0.632,
+    "floor_min": 0.7,
+    "explainer": "shap.TreeExplainer on HistGradientBoostingClassifier",
+    "models": [
+      {
+        "key": "rules",
+        "name": "Rules only",
+        "precision": 0.721,
+        "recall": 0.935,
+        "f1": 0.8142,
+        "pr_auc": 0.8169,
+        "confusion": [
+          [
+            7600,
+            89
+          ],
+          [
+            16,
+            230
+          ]
+        ],
+        "false_alarms_per_1000": 11.22
+      },
+      {
+        "key": "iforest",
+        "name": "Isolation Forest (unsupervised)",
+        "precision": 0.1933,
+        "recall": 0.2561,
+        "f1": 0.2203,
+        "pr_auc": 0.2809,
+        "confusion": [
+          [
+            7426,
+            263
+          ],
+          [
+            183,
+            63
+          ]
+        ],
+        "false_alarms_per_1000": 33.14
+      },
+      {
+        "key": "gbm",
+        "name": "Gradient boosting (GBM)",
+        "precision": 0.9703,
+        "recall": 0.9309,
+        "f1": 0.9502,
+        "pr_auc": 0.9808,
+        "confusion": [
+          [
+            7682,
+            7
+          ],
+          [
+            17,
+            229
+          ]
+        ],
+        "false_alarms_per_1000": 0.88
+      },
+      {
+        "key": "gbm_floors",
+        "name": "Verity (GBM + rule floors)",
+        "precision": 0.9665,
+        "recall": 0.939,
+        "f1": 0.9526,
+        "pr_auc": 0.976,
+        "confusion": [
+          [
+            7681,
+            8
+          ],
+          [
+            15,
+            231
+          ]
+        ],
+        "false_alarms_per_1000": 1.01
+      }
+    ],
+    "recall_by_pattern": [
+      {
+        "group": "night_high",
+        "n": 27,
+        "value": 0.8148
+      },
+      {
+        "group": "just_under_limit",
+        "n": 35,
+        "value": 0.8571
+      },
+      {
+        "group": "burst",
+        "n": 53,
+        "value": 0.9245
+      },
+      {
+        "group": "collect_new_payee",
+        "n": 27,
+        "value": 0.963
+      },
+      {
+        "group": "device_change_high",
+        "n": 24,
+        "value": 1.0
+      },
+      {
+        "group": "mule",
+        "n": 35,
+        "value": 1.0
+      },
+      {
+        "group": "reported_payee",
+        "n": 27,
+        "value": 1.0
+      },
+      {
+        "group": "young_payee_large",
+        "n": 18,
+        "value": 1.0
+      }
+    ],
+    "demo_frauds_flagged": "8/8"
+  },
+  "failures": [
+    {
+      "kind": "message",
+      "text": "Attention:  VIT Placement Cell: u r shortlisted. Register with ur VTOP credentials at https://vtopvit.in",
+      "true_label": 1,
+      "predicted": 0,
+      "score": 21,
+      "group": "VIT_PHISH",
+      "why": "Rules saw SENDER_MISMATCH but the combined score stayed under the SUSPICIOUS cut-off."
+    },
+    {
+      "kind": "message",
+      "text": "Hi, VIT Placement Cell: you are shortlisted. Register with your VTOP credentials at vtopvit.in/login Have a nice day.",
+      "true_label": 1,
+      "predicted": 0,
+      "score": 29,
+      "group": "VIT_PHISH",
+      "why": "Rules saw SENDER_MISMATCH but the combined score stayed under the SUSPICIOUS cut-off."
+    },
+    {
+      "kind": "message",
+      "text": "Namaste, Payment atak gaya? Turant helplien 70227-96177 par call kijiye. Thanks ji.",
+      "true_label": 1,
+      "predicted": 0,
+      "score": 31,
+      "group": "FAKE_CARE",
+      "why": "Rules saw CALLBACK_NUMBER, URGENCY but the combined score stayed under the SUSPICIOUS cut-off."
+    },
+    {
+      "kind": "message",
+      "text": "வணக்கம், பகுதி நேர வேலை: தினமும் Rs 4,885 சம்பாதிக்கலாம். முதலில் ₹ 328 கட்டணம் அனுப்பவும். நன்றி.",
+      "true_label": 1,
+      "predicted": 0,
+      "score": 33,
+      "group": "TASK_JOB",
+      "why": "Rules saw PAY_TO_EARN but the combined score stayed under the SUSPICIOUS cut-off."
+    },
+    {
+      "kind": "message",
+      "text": "பகுதி நேர வேலை: தினமும் ₹ 2350 சம்பாதிக்கலாம். முதலில் ₹259 கட்டணம் அனுப்பவும்.",
+      "true_label": 1,
+      "predicted": 0,
+      "score": 33,
+      "group": "TASK_JOB",
+      "why": "Rules saw PAY_TO_EARN but the combined score stayed under the SUSPICIOUS cut-off."
+    },
+    {
+      "kind": "message",
+      "text": "புகார் பதிவு செய்யப்பட்டது. எங்கள் அதிகாரியை 82509-10095 இல் தொடர்பு கொள்ளவும். நன்றி.",
+      "true_label": 1,
+      "predicted": 0,
+      "score": 33,
+      "group": "FAKE_CARE",
+      "why": "Rules saw CALLBACK_NUMBER but the combined score stayed under the SUSPICIOUS cut-off."
+    },
+    {
+      "kind": "message",
+      "text": "Sir/Madam, Payment atak gaya? Turant helpline 71319-13968 par call kijiye. Thanks ji.",
+      "true_label": 1,
+      "predicted": 0,
+      "score": 33,
+      "group": "FAKE_CARE",
+      "why": "Rules saw CALLBACK_NUMBER, URGENCY but the combined score stayed under the SUSPICIOUS cut-off."
+    },
+    {
+      "kind": "message",
+      "text": "புகார் பதிவு செய்யப்பட்டது. எங்கள் அதிகாரியை 87626-61840 இல் தொடர்பு கொள்ளவும். நன்றி.",
+      "true_label": 1,
+      "predicted": 0,
+      "score": 34,
+      "group": "FAKE_CARE",
+      "why": "Rules saw CALLBACK_NUMBER but the combined score stayed under the SUSPICIOUS cut-off."
+    },
+    {
+      "kind": "message",
+      "text": "Sir/Madam, Payment atak gaya? Turant helpline 8154738248 par call kijiye. Dhanyavaad.",
+      "true_label": 1,
+      "predicted": 0,
+      "score": 34,
+      "group": "FAKE_CARE",
+      "why": "Rules saw CALLBACK_NUMBER, URGENCY but the combined score stayed under the SUSPICIOUS cut-off."
+    },
+    {
+      "kind": "message",
+      "text": "Hello ji, Thoda late ho jayega, tum log shuru karo.",
+      "true_label": 0,
+      "predicted": 1,
+      "score": 46,
+      "group": "CASUAL_CHAT",
+      "why": "The model over-weighted wording shared with scams (“karo”)."
+    },
+    {
+      "kind": "message",
+      "text": "Thoda late ho jayega, tum log shuru karo. Thanks ji. ⚠️",
+      "true_label": 0,
+      "predicted": 1,
+      "score": 42,
+      "group": "CASUAL_CHAT",
+      "why": "The model over-weighted wording shared with scams (“karo”)."
+    },
+    {
+      "kind": "message",
+      "text": "Mummy bol rahi hai khana ready hai, neeche aa jao.",
+      "true_label": 0,
+      "predicted": 1,
+      "score": 40,
+      "group": "CASUAL_CHAT",
+      "why": "The model over-weighted wording shared with scams (“bol”)."
+    },
+    {
+      "kind": "message",
+      "text": "Mummy  bol  rahi hai khana ready hai, neeche aa jao.",
+      "true_label": 0,
+      "predicted": 1,
+      "score": 40,
+      "group": "CASUAL_CHAT",
+      "why": "The model over-weighted wording shared with scams (“bol”)."
+    },
+    {
+      "kind": "message",
+      "text": "SIR/MADAM, THODA LATE HO JAYEGA, TUM LOG SHURU KARO.",
+      "true_label": 0,
+      "predicted": 1,
+      "score": 35,
+      "group": "CASUAL_CHAT",
+      "why": "The model over-weighted wording shared with scams (“karo”)."
+    },
+    {
+      "kind": "transaction",
+      "text": "PAY ₹1,950 to Customer Support (new payee, account 543 days old, 3.0× usual) at 15:20",
+      "true_label": 1,
+      "predicted": 0,
+      "score": 0,
+      "group": "just_under_limit",
+      "why": "Missed 'just_under_limit': it looked like normal spending for this account."
+    },
+    {
+      "kind": "transaction",
+      "text": "PAY ₹10,835 to Canteen (known payee, account 718 days old, 19.9× usual) at 22:08",
+      "true_label": 0,
+      "predicted": 1,
+      "score": 100,
+      "group": "legit",
+      "why": "Genuine payment with risky features (DEVICE_CHANGE_HIGH_VALUE)."
+    },
+    {
+      "kind": "transaction",
+      "text": "PAY ₹1,998 to Bank Helpdesk (new payee, account 462 days old, 2.1× usual) at 17:22",
+      "true_label": 1,
+      "predicted": 0,
+      "score": 1,
+      "group": "just_under_limit",
+      "why": "Missed 'just_under_limit': it looked like normal spending for this account."
+    },
+    {
+      "kind": "transaction",
+      "text": "PAY ₹1,999 to Customer Support (new payee, account 450 days old, 1.9× usual) at 13:07",
+      "true_label": 1,
+      "predicted": 0,
+      "score": 2,
+      "group": "just_under_limit",
+      "why": "Missed 'just_under_limit': it looked like normal spending for this account."
+    },
+    {
+      "kind": "transaction",
+      "text": "PAY ₹2,271 to Customer Support (known payee, account 23 days old, 10.4× usual) at 13:45",
+      "true_label": 1,
+      "predicted": 0,
+      "score": 2,
+      "group": "burst",
+      "why": "Missed 'burst': it looked like normal spending for this account."
+    },
+    {
+      "kind": "transaction",
+      "text": "PAY ₹4,746 to KYC Update Cell (known payee, account 97 days old, 26.6× usual) at 11:59",
+      "true_label": 0,
+      "predicted": 1,
+      "score": 97,
+      "group": "legit",
+      "why": "Genuine payment with risky features (model only)."
+    }
+  ]
+}

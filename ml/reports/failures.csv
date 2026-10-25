@@ -1,0 +1,21 @@
+kind,text,true_label,predicted,score,group,why
+message,Attention:  VIT Placement Cell: u r shortlisted. Register with ur VTOP credentials at https://vtopvit.in,1,0,21,VIT_PHISH,Rules saw SENDER_MISMATCH but the combined score stayed under the SUSPICIOUS cut-off.
+message,"Hi, VIT Placement Cell: you are shortlisted. Register with your VTOP credentials at vtopvit.in/login Have a nice day.",1,0,29,VIT_PHISH,Rules saw SENDER_MISMATCH but the combined score stayed under the SUSPICIOUS cut-off.
+message,"Namaste, Payment atak gaya? Turant helplien 70227-96177 par call kijiye. Thanks ji.",1,0,31,FAKE_CARE,"Rules saw CALLBACK_NUMBER, URGENCY but the combined score stayed under the SUSPICIOUS cut-off."
+message,"வணக்கம், பகுதி நேர வேலை: தினமும் Rs 4,885 சம்பாதிக்கலாம். முதலில் ₹ 328 கட்டணம் அனுப்பவும். நன்றி.",1,0,33,TASK_JOB,Rules saw PAY_TO_EARN but the combined score stayed under the SUSPICIOUS cut-off.
+message,பகுதி நேர வேலை: தினமும் ₹ 2350 சம்பாதிக்கலாம். முதலில் ₹259 கட்டணம் அனுப்பவும்.,1,0,33,TASK_JOB,Rules saw PAY_TO_EARN but the combined score stayed under the SUSPICIOUS cut-off.
+message,புகார் பதிவு செய்யப்பட்டது. எங்கள் அதிகாரியை 82509-10095 இல் தொடர்பு கொள்ளவும். நன்றி.,1,0,33,FAKE_CARE,Rules saw CALLBACK_NUMBER but the combined score stayed under the SUSPICIOUS cut-off.
+message,"Sir/Madam, Payment atak gaya? Turant helpline 71319-13968 par call kijiye. Thanks ji.",1,0,33,FAKE_CARE,"Rules saw CALLBACK_NUMBER, URGENCY but the combined score stayed under the SUSPICIOUS cut-off."
+message,புகார் பதிவு செய்யப்பட்டது. எங்கள் அதிகாரியை 87626-61840 இல் தொடர்பு கொள்ளவும். நன்றி.,1,0,34,FAKE_CARE,Rules saw CALLBACK_NUMBER but the combined score stayed under the SUSPICIOUS cut-off.
+message,"Sir/Madam, Payment atak gaya? Turant helpline 8154738248 par call kijiye. Dhanyavaad.",1,0,34,FAKE_CARE,"Rules saw CALLBACK_NUMBER, URGENCY but the combined score stayed under the SUSPICIOUS cut-off."
+message,"Hello ji, Thoda late ho jayega, tum log shuru karo.",0,1,46,CASUAL_CHAT,The model over-weighted wording shared with scams (“karo”).
+message,"Thoda late ho jayega, tum log shuru karo. Thanks ji. ⚠️",0,1,42,CASUAL_CHAT,The model over-weighted wording shared with scams (“karo”).
+message,"Mummy bol rahi hai khana ready hai, neeche aa jao.",0,1,40,CASUAL_CHAT,The model over-weighted wording shared with scams (“bol”).
+message,"Mummy  bol  rahi hai khana ready hai, neeche aa jao.",0,1,40,CASUAL_CHAT,The model over-weighted wording shared with scams (“bol”).
+message,"SIR/MADAM, THODA LATE HO JAYEGA, TUM LOG SHURU KARO.",0,1,35,CASUAL_CHAT,The model over-weighted wording shared with scams (“karo”).
+transaction,"PAY ₹1,950 to Customer Support (new payee, account 543 days old, 3.0× usual) at 15:20",1,0,0,just_under_limit,Missed 'just_under_limit': it looked like normal spending for this account.
+transaction,"PAY ₹10,835 to Canteen (known payee, account 718 days old, 19.9× usual) at 22:08",0,1,100,legit,Genuine payment with risky features (DEVICE_CHANGE_HIGH_VALUE).
+transaction,"PAY ₹1,998 to Bank Helpdesk (new payee, account 462 days old, 2.1× usual) at 17:22",1,0,1,just_under_limit,Missed 'just_under_limit': it looked like normal spending for this account.
+transaction,"PAY ₹1,999 to Customer Support (new payee, account 450 days old, 1.9× usual) at 13:07",1,0,2,just_under_limit,Missed 'just_under_limit': it looked like normal spending for this account.
+transaction,"PAY ₹2,271 to Customer Support (known payee, account 23 days old, 10.4× usual) at 13:45",1,0,2,burst,Missed 'burst': it looked like normal spending for this account.
+transaction,"PAY ₹4,746 to KYC Update Cell (known payee, account 97 days old, 26.6× usual) at 11:59",0,1,97,legit,Genuine payment with risky features (model only).

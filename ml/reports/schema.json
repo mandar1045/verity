@@ -1,0 +1,72 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "Verity metrics.json",
+  "type": "object",
+  "required": ["generated_at", "data_hash", "message", "transaction", "failures"],
+  "$defs": {
+    "rate": {"type": "number", "minimum": 0, "maximum": 1},
+    "confusion": {
+      "type": "array", "minItems": 2, "maxItems": 2,
+      "items": {"type": "array", "minItems": 2, "maxItems": 2, "items": {"type": "integer", "minimum": 0}}
+    },
+    "model": {
+      "type": "object",
+      "required": ["key", "name", "precision", "recall", "f1", "pr_auc", "confusion"],
+      "properties": {
+        "key": {"type": "string"}, "name": {"type": "string"},
+        "precision": {"$ref": "#/$defs/rate"}, "recall": {"$ref": "#/$defs/rate"}, "f1": {"$ref": "#/$defs/rate"},
+        "pr_auc": {"anyOf": [{"$ref": "#/$defs/rate"}, {"type": "null"}]},
+        "confusion": {"$ref": "#/$defs/confusion"},
+        "false_alarms_per_1000": {"type": "number", "minimum": 0}
+      }
+    },
+    "breakdown": {
+      "type": "array",
+      "items": {
+        "type": "object", "required": ["group", "n", "value"],
+        "properties": {"group": {"type": "string"}, "n": {"type": "integer", "minimum": 0}, "value": {"$ref": "#/$defs/rate"}}
+      }
+    }
+  },
+  "properties": {
+    "generated_at": {"type": "string"},
+    "data_hash": {"type": "string"},
+    "message": {
+      "type": "object",
+      "required": ["test_size", "train_size", "n_templates_test", "threshold", "fusion_weight", "models",
+                   "recall_by_scam_type", "f1_by_language", "fpr_by_legit_class", "hard_negative_fpr",
+                   "scam_type_accuracy", "external_uci"],
+      "properties": {
+        "models": {"type": "array", "minItems": 4, "items": {"$ref": "#/$defs/model"}},
+        "recall_by_scam_type": {"$ref": "#/$defs/breakdown"},
+        "f1_by_language": {"$ref": "#/$defs/breakdown"},
+        "fpr_by_legit_class": {"$ref": "#/$defs/breakdown"},
+        "hard_negative_fpr": {"$ref": "#/$defs/rate"},
+        "scam_type_accuracy": {"$ref": "#/$defs/rate"},
+        "external_uci": {"type": "object", "required": ["precision", "recall", "f1", "n", "note"]}
+      }
+    },
+    "transaction": {
+      "anyOf": [
+        {"type": "null"},
+        {
+          "type": "object",
+          "required": ["test_size", "train_size", "fraud_rate_test", "threshold", "explainer", "models",
+                       "recall_by_pattern", "demo_frauds_flagged"],
+          "properties": {
+            "models": {"type": "array", "minItems": 4, "items": {"$ref": "#/$defs/model"}},
+            "recall_by_pattern": {"$ref": "#/$defs/breakdown"}
+          }
+        }
+      ]
+    },
+    "failures": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "required": ["kind", "text", "true_label", "predicted", "score", "group", "why"],
+        "properties": {"kind": {"enum": ["message", "transaction"]}}
+      }
+    }
+  }
+}
